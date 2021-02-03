@@ -49007,6 +49007,8 @@
           <e p="BuildingEscape.h" t="Include" />
           <e p="BuildingEscapeGameModeBase.cpp" t="Include" />
           <e p="BuildingEscapeGameModeBase.h" t="Include" />
+          <e p="WorldPosition.cpp" t="Include" />
+          <e p="WorldPosition.h" t="Include" />
         </e>
         <e p="BuildingEscape.Target.cs" t="Include" />
         <e p="BuildingEscapeEditor.Target.cs" t="Include" />
