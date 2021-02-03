@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\theod\\Documents\\GitHub\\UnrealEngine\\GameDevTutorials\\BuildingEscape\\Source\\BuildingEscape\\BuildingEscape.Build.cs",
+		"C:\\Users\\theod\\Documents\\GitHub\\UnrealEngine\\GameDevTutorials\\BuildingEscape\\Source\\BuildingEscape.Target.cs",
+		"C:\\Users\\theod\\Documents\\GitHub\\UnrealEngine\\GameDevTutorials\\BuildingEscape\\Source\\BuildingEscapeEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.0"
+}

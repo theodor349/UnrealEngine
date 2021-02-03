@@ -1,0 +1,2 @@
+C:\Users\theod\Documents\GitHub\UnrealEngine\GameDevTutorials\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
+C:\Users\theod\Documents\GitHub\UnrealEngine\GameDevTutorials\BuildingEscape\Source\BuildingEscape\BuildingEscape.h
