@@ -49009,6 +49009,8 @@
           <e p="BuildingEscapeGameModeBase.h" t="Include" />
           <e p="DoorOpener.cpp" t="Include" />
           <e p="DoorOpener.h" t="Include" />
+          <e p="Grabber.cpp" t="Include" />
+          <e p="Grabber.h" t="Include" />
           <e p="WorldPosition.cpp" t="Include" />
           <e p="WorldPosition.h" t="Include" />
         </e>

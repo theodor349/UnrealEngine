@@ -1,0 +1,1373 @@
+﻿Log file open, 02/05/21 19:59:10
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: BuildingEscape
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.254986
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-14830424
+LogInit: Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Dec  1 2020 15:13:26
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2021.02.05-18.59.11:325][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.02.05-18.59.11:325][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2021.02.05-18.59.11:325][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2021.02.05-18.59.11:358][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.05-18.59.11:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.05-18.59.11:359][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.05-18.59.11:359][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.05-18.59.11:359][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.05-18.59.11:360][  0]LogHAL: Display: Platform has ~ 32 GB [34306424832 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.05-18.59.11:360][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.05-18.59.11:360][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.05-18.59.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.05-18.59.11:361][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Config/Windows/Engine.ini]
+[2021.02.05-18.59.11:361][  0]LogInit: Computer: DESKTOP-121DA0N
+[2021.02.05-18.59.11:361][  0]LogInit: User: theod
+[2021.02.05-18.59.11:361][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.02.05-18.59.11:361][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.05-18.59.11:361][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2021.02.05-18.59.11:361][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.05-18.59.11:361][  0]LogMemory: Process Physical Memory: 130.39 MB used, 130.39 MB peak
+[2021.02.05-18.59.11:361][  0]LogMemory: Process Virtual Memory: 108.84 MB used, 108.84 MB peak
+[2021.02.05-18.59.11:361][  0]LogMemory: Physical Memory: 10999.24 MB used,  21717.91 MB free, 32717.16 MB total
+[2021.02.05-18.59.11:361][  0]LogMemory: Virtual Memory: 134196776.00 MB used,  20948.01 MB free, 134217728.00 MB total
+[2021.02.05-18.59.11:366][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.05-18.59.11:406][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.05-18.59.11:407][  0]LogInit: Using OS detected language (en-US).
+[2021.02.05-18.59.11:407][  0]LogInit: Using OS detected locale (da-DK).
+[2021.02.05-18.59.11:410][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.05-18.59.11:618][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.05-18.59.11:630][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.05-18.59.11:692][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.05-18.59.11:692][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.05-18.59.11:863][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.05-18.59.11:863][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.05-18.59.11:863][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.05-18.59.11:863][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.05-18.59.11:960][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2021.02.05-18.59.11:960][  0]LogD3D11RHI:       8079/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.02.05-18.59.11:962][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.05-18.59.11:962][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.05-18.59.11:962][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.05-18.59.11:967][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.05-18.59.11:967][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.05-18.59.11:967][  0]LogWindows: EnumDisplayDevices:
+[2021.02.05-18.59.11:967][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.02.05-18.59.11:968][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2021.02.05-18.59.11:968][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.02.05-18.59.11:968][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.02.05-18.59.11:969][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.05-18.59.11:969][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.02.05-18.59.11:969][  0]LogD3D11RHI:   Driver Version: 457.51 (internal:27.21.14.5751, unified:457.51)
+[2021.02.05-18.59.11:969][  0]LogD3D11RHI:      Driver Date: 11-22-2020
+[2021.02.05-18.59.11:969][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.02.05-18.59.12:028][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.05-18.59.12:028][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.05-18.59.12:028][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.05-18.59.12:029][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2021.02.05-18.59.12:062][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.05-18.59.12:065][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.02.05-18.59.12:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.05-18.59.12:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.05-18.59.12:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.05-18.59.12:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.05-18.59.12:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.05-18.59.12:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.05-18.59.12:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.05-18.59.12:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.05-18.59.12:488][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.05-18.59.12:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.05-18.59.12:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.05-18.59.12:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.05-18.59.12:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.05-18.59.12:539][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.02.05-18.59.12:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.02.05-18.59.12:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.02.05-18.59.12:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.02.05-18.59.12:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.05-18.59.12:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.05-18.59.12:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.05-18.59.12:601][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.05-18.59.12:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.05-18.59.12:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.05-18.59.12:618][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.05-18.59.12:626][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.05-18.59.12:689][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.02.05-18.59.12:689][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Intermediate/Shaders/WorkingDirectory/14736/).
+[2021.02.05-18.59.12:689][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/theod/AppData/Local/Temp/UnrealShaderWorkingDir/4BF668CF4997BAB7AF2FD6AA8902A8F1/'.
+[2021.02.05-18.59.12:690][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.05-18.59.12:690][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.05-18.59.13:511][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.05-18.59.13:566][  0]LogDerivedDataCache: Loaded boot cache 0.05s 77MB C:/Users/theod/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.05-18.59.13:566][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/theod/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.02.05-18.59.13:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.05-18.59.13:566][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.05-18.59.13:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.05-18.59.13:566][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.05-18.59.13:579][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.05-18.59.13:579][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.05-18.59.13:579][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.05-18.59.13:591][  0]LogDerivedDataCache: Speed tests for C:/Users/theod/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.02.05-18.59.13:591][  0]LogDerivedDataCache: Display: Performance to C:/Users/theod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=251.50MBs, RandomWriteSpeed=119.31MBs. Assigned SpeedClass 'Local'
+[2021.02.05-18.59.13:591][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.05-18.59.13:591][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.05-18.59.13:591][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.05-18.59.13:648][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.05-18.59.13:649][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.05-18.59.13:675][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2021.02.05-18.59.13:960][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.05-18.59.13:960][  0]LogInit: Active device profile: [0000016C29A3EF00][0000016C210DEAC0 49] Windows
+[2021.02.05-18.59.13:960][  0]LogInit: Profiles: [0000016C29A3EF00][0000016C210DEAC0 49] Windows, [0000016C29A25300][0000016C210E6C40 49] WindowsNoEditor, [0000016C29A3D300][0000016C210EADC0 49] WindowsServer, [0000016C29A26F00][0000016C210EEF40 49] WindowsClient, [0000016C29A3F100][0000016C210F30C0 49] IOS, [0000016C29A27E00][0000016C210F7240 49] iPadAir, [0000016C29A3D800][0000016C27FED3C0 49] iPadAir2, [0000016C299DC600][0000016C210E3640 49] IPadPro, [0000016C299DC700][0000016C27FF1680 49] iPadAir3, [0000016C29A3F300][0000016C27FF57C0 49] iPadAir4, [0000016C299DED00][0000016C27FF9900 49] iPadMini2, [0000016C29A3D700][0000016C28001A80 49] iPadMini3, [0000016C299DE000][0000016C28005C00 49] iPadMini4, [0000016C29A3F200][0000016C280080C0 49] iPadMini5, [0000016C299D3E00][0000016C28010380 49] iPhone6, [0000016C299D3F00][0000016C2800C3C0 49] iPodTouch6, [0000016C29A27A00][0000016C28018680 49] iPhone7, [0000016C299DF100][0000016C280146C0 49] iPodTouch7, [0000016C299D1600][0000016C2801C840 49] iPhone5S, [0000016C299DF000][0000016C280209C0 49] iPhone6Plus, [0000016C299D3A00][0000016C28024B40 49] iPhone6S, [0000016C299DD600][0000016C28028CC0 49] iPhone6SPlus, [0000016C299D2F00][0000016C2802CE40 49] iPhone7Plus, [0000016C299DD100][0000016C28030FC0 49] iPhoneSE, [0000016C299D3D00][0000016C28035140 49] iPhone8, [0000016C299DF800][0000016C280392C0 49] iPhone8Plus, [0000016C299D1B00][0000016C2803D440 49] iPhoneX, [0000016C299DE900][0000016C280415C0 49] iPhoneXS, [0000016C299D2000][0000016C27FFD700 49] iPhoneXSMax, [0000016C299DC200][0000016C28045840 49] iPhoneXR, [0000016C299D1D00][0000016C28049980 49] iPhone11, [0000016C299DD900][0000016C2804DAC0 49] iPhone11Pro, [0000016C299D2200][0000016C2A065C40 49] iPhone11ProMax, [0000016C299DDB00][0000016C2A068100 49] iPhoneSE2, [0000016C299D2500][0000016C2A06C280 49] iPhone12Mini, [0000016C299DD800][0000016C2A070400 49] iPhone12, [0000016C299D3C00][0000016C2A074580 49] iPhone12Pro, [0000016C299DF200][0000016C2A078700 49] iPhone12ProMax, [0000016C299D1200][0000016C2A07C880 49] iPadPro105, [0000016C299DDE00][0000016C2A080A00 49] iPadPro129, [0000016C299D0F00][0000016C2A084B80 49] iPadPro97, [0000016C299DCC00][0000016C2A088D00 49] iPadPro2_129, [0000016C299D3000][0000016C2A08CE80 49] iPad5, [0000016C299DFA00][0000016C2A091000 49] iPad6, [0000016C299D0C00][0000016C2A095180 49] iPad7, [0000016C299DC900][0000016C2A099300 49] iPad8, [0000016C299D3B00][0000016C2A09D480 49] iPadPro11, [0000016C299DF300][0000016C2A0A1600 49] iPadPro2_11, [0000016C299D0600][0000016C2A061740 49] iPadPro3_129, [0000016C299DE100][0000016C2A0A5880 49] iPadPro4_129, [0000016C299D1700][0000016C2A0A99C0 49] AppleTV, [0000016C299DD700][0000016C2A0ADB00 49] AppleTV4K, [0000016C299D0E00][0000016C2A0B5C80 49] TVOS, [0000016C299DE800][0000016C2A0B8140 49] Mac, [0000016C299D1500][0000016C2A0BC2C0 49] MacClient, [0000016C299D2B00][0000016C2A0C0440 49] MacNoEditor, [0000016C29A26700][0000016C2A0C45C0 49] MacServer, [0000016C299D1F00][0000016C2A0C8740 49] Linux, [0000016C29A27800][0000016C2A0CC8C0 49] LinuxNoEditor, [0000016C299D1800][0000016C2A0D0A40 49] LinuxAArch64NoEditor, [0000016C29AB8200][0000016C2A0D4BC0 49] LinuxClient, [0000016C299D3100][0000016C2A0D8D40 49] LinuxAArch64Client, [0000016C29AB8700][0000016C2A0E4EC0 49] LinuxServer, [0000016C299D2300][0000016C2A0E9040 49] LinuxAArch64Server, [0000016C299DD300][0000016C2A0ED1C0 49] Android, [0000016C299D1300][0000016C2A0F1340 49] Android_Low, [0000016C299DC100][0000016C2A0FD4C0 49] Android_Mid, [0000016C299D2800][0000016C2A101640 49] Android_High, [0000016C299DDA00][0000016C2A1057C0 49] Android_Default, [0000016C299D0100][0000016C2A0B1900 49] Android_Adreno4xx, [0000016C299DCF00][0000016C2A115A40 49] Android_Adreno5xx_Low, [0000016C299D3900][0000016C2A119B80 49] Android_Adreno5xx, [0000016C299DDF00][0000016C2A121D00 49] Android_Adreno6xx, [0000016C299D0800][0000016C2A1241C0 49] Android_Adreno6xx_Vulkan, [0000016C299DFC00][0000016C2A128340 49] Android_Mali_T6xx, [0000016C299D3600][0000016C2A12C4C0 49] Android_Mali_T7xx, [0000016C299DF500][0000016C2A130640 49] Android_Mali_T8xx, [0000016C299D1400][0000016C2A14C7C0 49] Android_Mali_G71, [0000016C299DC400][0000016C2A150940 49] Android_Mali_G72, [0000016C299D0D00][0000016C2A154AC0 49] Android_Mali_G72_Vulkan, [0000016C299DF400][0000016C2A158C40 49] Android_Mali_G76, [0000016C299D2400][0000016C2A17CDC0 49] Android_Mali_G76_Vulkan, [0000016C299DDD00][0000016C2A180F40 49] Android_Mali_G77, [0000016C299D1900][0000016C2A1850C0 49] Android_Mali_G77_Vulkan, [0000016C299DCA00][0000016C2A189240 49] Android_Vulkan_SM5, [0000016C299D3400][0000016C2A18D3C0 49] Android_PowerVR_G6xxx, [0000016C299DEA00][0000016C2A191540 49] Android_PowerVR_GT7xxx, [0000016C299D0B00][0000016C2A1956C0 49] Android_PowerVR_GE8xxx, [0000016C299DFD00][0000016C2A199840 49] Android_PowerVR_GM9xxx, [0000016C299D2C00][0000016C2A11D980 49] Android_PowerVR_GM9xxx_Vulkan, [0000016C299DD500][0000016C2A1C9AC0 49] Android_TegraK1, [0000016C299D0700][0000016C2A1CDC00 49] Android_Unknown_Vulkan, [0000016C299DEE00][0000016C2A1D40C0 49] Lumin, [0000016C299D2700][0000016C2A1D8240 49] Lumin_Desktop, [0000016C299DC500][0000016C2A1DC3C0 49] HoloLens, 
+[2021.02.05-18.59.14:088][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.05-18.59.14:088][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.05-18.59.14:088][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.05-18.59.14:088][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.05-18.59.14:088][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.05-18.59.14:144][  0]LogNetVersion: BuildingEscape 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1874737047)
+[2021.02.05-18.59.14:617][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.02.05-18.59.14:686][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.069017 seconds
+[2021.02.05-18.59.14:692][  0]LogUObjectArray: 16830 objects as part of root set at end of initial load.
+[2021.02.05-18.59.14:692][  0]LogUObjectAllocator: 4209472 out of 0 bytes used by permanent object pool.
+[2021.02.05-18.59.14:692][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.05-18.59.15:089][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.05-18.59.15:094][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.05-18.59.15:174][  0]SourceControl: Source control is disabled
+[2021.02.05-18.59.15:174][  0]SourceControl: Source control is disabled
+[2021.02.05-18.59.15:176][  0]SourceControl: Source control is disabled
+[2021.02.05-18.59.15:179][  0]SourceControl: Source control is disabled
+[2021.02.05-18.59.15:189][  0]SourceControl: Source control is disabled
+[2021.02.05-18.59.15:195][  0]LogUProjectInfo: Found projects:
+[2021.02.05-18.59.15:405][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.05-18.59.15:420][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.05-18.59.15:420][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.05-18.59.15:484][  0]LogCollectionManager: Loaded 0 collections in 0.002295 seconds
+[2021.02.05-18.59.15:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/Collections/' took 0.00s
+[2021.02.05-18.59.15:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Developers/theod/Collections/' took 0.00s
+[2021.02.05-18.59.15:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Collections/' took 0.00s
+[2021.02.05-18.59.15:511][  0]LogOcInput: OculusInput pre-init called
+[2021.02.05-18.59.15:522][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.05-18.59.15:522][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.05-18.59.15:566][  0]LogEngine: Initializing Engine...
+[2021.02.05-18.59.15:567][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.05-18.59.15:567][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.05-18.59.15:568][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.05-18.59.15:695][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.05-18.59.15:704][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.05-18.59.15:719][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.02.05-18.59.15:723][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.02.05-18.59.15:723][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-18.59.15:723][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-18.59.15:723][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-18.59.15:723][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-18.59.15:738][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-18.59.15:738][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-18.59.15:767][  0]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-18.59.15:773][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-18.59.15:775][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-18.59.15:775][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-18.59.15:776][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-18.59.15:776][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-18.59.15:776][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-18.59.15:777][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-18.59.15:777][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-18.59.15:777][  0]LogInit: FAudioDevice initialized.
+[2021.02.05-18.59.15:777][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.02.05-18.59.15:777][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.05-18.59.15:852][  0]LogDerivedDataCache: Saved boot cache 0.07s 77MB C:/Users/theod/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.05-18.59.15:857][  0]LogInit: Texture streaming: Enabled
+[2021.02.05-18.59.15:869][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.0-14830424+++UE4+Release-4.26
+[2021.02.05-18.59.15:872][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.05-18.59.15:872][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.05-18.59.15:874][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.05-18.59.15:915][  0]LogInit: Transaction tracking system initialized
+[2021.02.05-18.59.15:936][  0]BlueprintLog: New page: Editor Load
+[2021.02.05-18.59.16:001][  0]LocalizationService: Localization service is disabled
+[2021.02.05-18.59.16:024][  0]TimingProfiler: Initialize
+[2021.02.05-18.59.16:024][  0]TimingProfiler: OnSessionChanged
+[2021.02.05-18.59.16:024][  0]LoadingProfiler: Initialize
+[2021.02.05-18.59.16:024][  0]LoadingProfiler: OnSessionChanged
+[2021.02.05-18.59.16:024][  0]NetworkingProfiler: Initialize
+[2021.02.05-18.59.16:024][  0]NetworkingProfiler: OnSessionChanged
+[2021.02.05-18.59.16:024][  0]MemoryProfiler: Initialize
+[2021.02.05-18.59.16:024][  0]MemoryProfiler: OnSessionChanged
+[2021.02.05-18.59.16:161][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.02.05-18.59.16:161][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.05-18.59.16:313][  0]LogFileCache: Scanning file cache for directory 'C:/Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/' took 0.00s
+[2021.02.05-18.59.16:509][  0]SourceControl: Source control is disabled
+[2021.02.05-18.59.16:509][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.236
+[2021.02.05-18.59.16:509][  0]Cmd: MAP LOAD FILE="../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.05-18.59.16:510][  0]LightingResults: New page: Lighting Build
+[2021.02.05-18.59.16:511][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-18.59.16:511][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-18.59.16:511][  0]MapCheck: New page: Map Check
+[2021.02.05-18.59.16:511][  0]LightingResults: New page: Lighting Build
+[2021.02.05-18.59.16:520][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.02.05-18.59.16:608][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.02.05-18.59.16:608][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.02.05-18.59.16:608][  0]LogPhysics: Warning: Failed to cook convex: /Game/Models/Doow_Frame.Doow_Frame 0 (FlipX:0). The remaining elements will not get cooked.
+[2021.02.05-18.59.16:608][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.02.05-18.59.16:608][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.02.05-18.59.16:608][  0]LogPhysics: Warning: Failed to cook convex: /Game/Models/Doow_Frame.Doow_Frame 0 (FlipX:1). The remaining elements will not get cooked.
+[2021.02.05-18.59.16:608][  0]LogPhysics: Warning: Attempt to build physics data for /Game/Models/Doow_Frame.Doow_Frame:BodySetup_0 when we are unable to.
+[2021.02.05-18.59.16:638][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'BuildingEscape'.
+[2021.02.05-18.59.16:639][  0]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-18.59.16:642][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-18.59.16:642][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-18.59.16:643][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-18.59.16:643][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-18.59.16:644][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.05-18.59.16:666][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.02.05-18.59.16:666][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.05-18.59.16:667][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,254ms to complete.
+[2021.02.05-18.59.16:667][  0]LogFileHelpers: Loading map 'BuildingEscape' took 0.158
+[2021.02.05-18.59.16:669][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.397
+[2021.02.05-18.59.17:205][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.02.05-18.59.17:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-18.59.17:290][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-18.59.17:296][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-18.59.17:302][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-18.59.17:317][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3604 classes and 861 folders.
+[2021.02.05-18.59.17:321][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.05-18.59.17:322][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.05-18.59.17:322][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:322][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-18.59.17:322][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2021.02.05-18.59.17:323][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.05-18.59.17:323][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:323][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.05-18.59.17:323][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.02.05-18.59.17:324][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.02.05-18.59.17:324][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:324][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.02.05-18.59.17:324][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.02.05-18.59.17:324][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-18.59.17:324][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:324][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-18.59.17:324][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2021.02.05-18.59.17:325][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.05-18.59.17:325][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:325][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.05-18.59.17:325][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.02.05-18.59.17:325][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.05-18.59.17:325][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:325][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.05-18.59.17:325][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.02.05-18.59.17:326][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.05-18.59.17:326][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:326][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.05-18.59.17:326][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.02.05-18.59.17:326][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.05-18.59.17:326][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:326][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.05-18.59.17:326][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.02.05-18.59.17:327][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.05-18.59.17:327][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:327][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.05-18.59.17:327][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2021.02.05-18.59.17:327][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.05-18.59.17:327][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:327][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.05-18.59.17:327][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.02.05-18.59.17:328][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.05-18.59.17:328][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:328][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.05-18.59.17:328][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.02.05-18.59.17:328][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.05-18.59.17:328][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:328][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.05-18.59.17:328][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.02.05-18.59.17:329][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-18.59.17:329][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:329][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-18.59.17:329][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.02.05-18.59.17:330][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.05-18.59.17:330][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:330][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.05-18.59.17:330][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2021.02.05-18.59.17:331][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.05-18.59.17:331][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:331][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.05-18.59.17:331][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.02.05-18.59.17:331][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.05-18.59.17:331][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:332][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-18.59.17:332][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2021.02.05-18.59.17:332][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.05-18.59.17:332][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:332][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.05-18.59.17:332][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.02.05-18.59.17:333][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.05-18.59.17:333][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:333][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.05-18.59.17:333][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.02.05-18.59.17:333][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-18.59.17:333][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:333][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-18.59.17:334][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.02.05-18.59.17:334][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-18.59.17:334][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:334][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-18.59.17:334][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.02.05-18.59.17:335][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.05-18.59.17:335][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:335][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-18.59.17:335][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.02.05-18.59.17:335][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.05-18.59.17:335][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:335][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.05-18.59.17:335][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.02.05-18.59.17:336][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.02.05-18.59.17:336][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:336][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.02.05-18.59.17:336][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.02.05-18.59.17:336][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.05-18.59.17:336][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:336][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.05-18.59.17:336][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.02.05-18.59.17:337][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-18.59.17:337][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:337][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-18.59.17:337][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2021.02.05-18.59.17:337][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.05-18.59.17:337][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-18.59.17:337][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.05-18.59.17:337][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2021.02.05-18.59.17:383][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.02.05-18.59.17:388][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.02.05-18.59.17:423][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.05-18.59.17:426][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.05-18.59.17:432][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.05-18.59.17:434][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.05-18.59.17:675][  0]LogRenderer: Reallocating scene render targets to support 2172x808 Format 10 NumSamples 1 (Frame:1).
+[2021.02.05-18.59.17:820][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.05-18.59.17:821][  0]LogLoad: (Engine Initialization) Total time: 7.55 seconds
+[2021.02.05-18.59.17:821][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.05-18.59.17:821][  0]LogInit: First time updating LLM stats...
+[2021.02.05-18.59.17:865][  0]LogAssetRegistry: Asset discovery search completed in 4.1918 seconds
+[2021.02.05-18.59.17:867][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.02.05-18.59.17:867][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.05-19.02.36:088][951]LogHotReload: New module detected: UE4Editor-BuildingEscape-0040.dll
+[2021.02.05-19.02.37:122][955]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.05-19.02.37:128][955]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.05-19.02.37:164][955]LogClass: Could not find existing class DoorOpener in package /Script/BuildingEscape for HotReload, assuming new class
+[2021.02.05-19.02.37:168][955]LogHotReload: Re-instancing DoorOpener after hot-reload.
+[2021.02.05-19.02.37:174][955]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2021.02.05-19.02.37:175][955]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.05-19.02.37:224][955]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3604 classes and 861 folders.
+[2021.02.05-19.02.37:229][955]Display: HotReload took  0.1s.
+[2021.02.05-19.02.41:543][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.02.41:554][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.02.41:555][ 92]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.02.41)
+[2021.02.05-19.02.41:556][ 92]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.05-19.02.41:557][ 92]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.05-19.02.41:557][ 92]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.02.41:565][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007997s)
+[2021.02.05-19.02.41:566][ 92]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.02.41:566][ 92]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2021.02.05-19.02.41:566][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.009619s)
+[2021.02.05-19.02.41:572][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.02.05-19.02.41:574][ 92]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.02.05-19.02.41:574][ 92]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.02.41:574][ 92]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.02.41:574][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.02.41:574][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.02.41:575][ 92]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.02.41:575][ 92]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.02.41:575][ 92]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.02.41:575][ 92]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.02.41:575][ 92]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.02.41:575][ 92]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.02.41:579][ 92]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.02.41:579][ 92]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.02.41:592][ 92]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.02.41:592][ 92]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.02.41:592][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.02.41:592][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.02.41:593][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.02.41:593][ 92]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.02.41:593][ 92]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.02.41:607][ 92]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.02.41:607][ 92]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.02.41:607][ 92]LogInit: FAudioDevice initialized.
+[2021.02.05-19.02.41:607][ 92]LogAudio: Display: Audio Device (ID: 2) registered with world 'BuildingEscape'.
+[2021.02.05-19.02.41:617][ 92]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.02.41:619][ 92]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.02.41:619][ 92]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.02.41:620][ 92]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.02.41:620][ 92]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.02.41:620][ 92]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.02.41
+[2021.02.05-19.02.41:620][ 92]LogWorld: Bringing up level for play took: 0.001514
+[2021.02.05-19.02.41:620][ 92]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.02.05-19.02.41:652][ 92]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.02.05-19.02.41:653][ 92]PIE: Server logged in
+[2021.02.05-19.02.41:655][ 92]PIE: Play in editor total start time 0,101 seconds.
+[2021.02.05-19.02.57:804][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.02.57:804][990]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.02.57:804][990]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.02.57:804][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.02.57:817][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.02.57:818][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.02.57:822][990]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.05-19.02.57:823][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.02.57:824][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.02.57:840][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.02.57:843][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.02.05-19.02.57:874][991]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.02.05-19.03.00:540][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door2)
+[2021.02.05-19.03.08:385][925]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.03.08:398][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.03.08:398][925]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.03.08)
+[2021.02.05-19.03.08:398][925]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.03.08:405][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006786s)
+[2021.02.05-19.03.08:407][925]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.03.08:407][925]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2021.02.05-19.03.08:407][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.008623s)
+[2021.02.05-19.03.08:412][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.02.05-19.03.08:413][925]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.02.05-19.03.08:413][925]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.03.08:414][925]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.03.08:414][925]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.03.08:414][925]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.03.08:414][925]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.03.08:414][925]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.03.08:414][925]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.03.08:414][925]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.03.08:414][925]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.03.08:414][925]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.03.08:418][925]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.03.08:418][925]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.03.08:428][925]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.03.08:429][925]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.03.08:429][925]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.03.08:429][925]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.03.08:429][925]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.03.08:429][925]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.03.08:429][925]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.03.08:444][925]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.03.08:444][925]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.03.08:444][925]LogInit: FAudioDevice initialized.
+[2021.02.05-19.03.08:444][925]LogAudio: Display: Audio Device (ID: 3) registered with world 'BuildingEscape'.
+[2021.02.05-19.03.08:451][925]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.03.08:453][925]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.03.08:453][925]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.03.08:453][925]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.03.08:453][925]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.03.08:453][925]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.03.08
+[2021.02.05-19.03.08:454][925]LogWorld: Bringing up level for play took: 0.001765
+[2021.02.05-19.03.08:454][925]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.02.05-19.03.08:456][925]PIE: Server logged in
+[2021.02.05-19.03.08:457][925]PIE: Play in editor total start time 0,06 seconds.
+[2021.02.05-19.03.20:584][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.03.20:584][372]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.03.20:584][372]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.03.20:585][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.03.20:592][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.03.20:609][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.03.20:614][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.03.20:614][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.03.20:615][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.03.20:632][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.02.05-19.03.20:680][373]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.02.05-19.03.22:753][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.02.05-19.03.22:781][488]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscape7AAB66264E0A39B9F12C8496F6DA32F5.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape.umap'
+[2021.02.05-19.03.22:844][488]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscape_BuiltDataD0EB47AD4D4BAA0E23DB9F99B211A6A4.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape_BuiltData.uasset'
+[2021.02.05-19.03.22:857][488]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.05-19.03.22:857][488]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/BuildingEscape_BuiltData.BuildingEscape_BuiltData
+[2021.02.05-19.03.22:857][488]LogContentValidation: Display: Validating World /Game/Levels/BuildingEscape.BuildingEscape
+[2021.02.05-19.12.20:114][108]LogHotReload: New module detected: UE4Editor-BuildingEscape-0041.dll
+[2021.02.05-19.12.20:820][111]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.05-19.12.20:899][111]LogClass: Could not find existing class DoorOpener in package /Script/BuildingEscape for HotReload, assuming new class
+[2021.02.05-19.12.20:903][111]LogHotReload: Re-instancing DoorOpener after hot-reload.
+[2021.02.05-19.12.20:908][111]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2021.02.05-19.12.20:910][111]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.05-19.12.20:956][111]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0111 seconds. Added 3604 classes and 861 folders.
+[2021.02.05-19.12.20:961][111]Display: HotReload took  0.1s.
+[2021.02.05-19.12.27:038][222]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.12.27:051][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.12.27:051][222]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.12.27)
+[2021.02.05-19.12.27:073][222]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.12.27:082][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008944s)
+[2021.02.05-19.12.27:084][222]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.12.27:084][222]LogPlayLevel: PIE: World Init took: (0.001886s)
+[2021.02.05-19.12.27:084][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.011126s)
+[2021.02.05-19.12.27:090][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.02.05-19.12.27:091][222]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.02.05-19.12.27:091][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.12.27:091][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.12.27:091][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.12.27:091][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.12.27:091][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.12.27:091][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.12.27:091][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.12.27:091][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.12.27:092][222]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.12.27:092][222]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.12.27:097][222]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.12.27:097][222]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.12.27:108][222]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.12.27:108][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.12.27:108][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.12.27:108][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.12.27:109][222]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.12.27:109][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.12.27:109][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.12.27:125][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.12.27:125][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.12.27:125][222]LogInit: FAudioDevice initialized.
+[2021.02.05-19.12.27:126][222]LogAudio: Display: Audio Device (ID: 4) registered with world 'BuildingEscape'.
+[2021.02.05-19.12.27:139][222]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.12.27:140][222]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.12.27:140][222]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.12.27:141][222]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.12.27:141][222]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.12.27:141][222]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.12.27
+[2021.02.05-19.12.27:141][222]LogWorld: Bringing up level for play took: 0.001693
+[2021.02.05-19.12.27:141][222]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.02.05-19.12.27:144][222]PIE: Server logged in
+[2021.02.05-19.12.27:145][222]PIE: Play in editor total start time 0,095 seconds.
+[2021.02.05-19.12.33:165][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.12.33:165][934]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.12.33:165][934]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.12.33:166][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.12.33:172][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.12.33:189][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.12.33:194][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.12.33:194][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.12.33:195][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.12.33:214][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.02.05-19.12.33:265][935]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.02.05-19.13.17:254][121]LogHotReload: New module detected: UE4Editor-BuildingEscape-0042.dll
+[2021.02.05-19.13.17:941][124]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.05-19.13.17:977][124]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.02.05-19.13.17:978][124]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.05-19.13.18:019][124]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3604 classes and 861 folders.
+[2021.02.05-19.13.18:022][124]Display: HotReload took  0.1s.
+[2021.02.05-19.13.24:106][637]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.13.24:119][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.13.24:119][637]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.13.24)
+[2021.02.05-19.13.24:143][637]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.13.24:150][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007052s)
+[2021.02.05-19.13.24:152][637]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.13.24:152][637]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2021.02.05-19.13.24:152][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.008754s)
+[2021.02.05-19.13.24:157][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.02.05-19.13.24:158][637]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.02.05-19.13.24:158][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.13.24:158][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.13.24:158][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.13.24:158][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.13.24:158][637]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.13.24:158][637]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.13.24:158][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.13.24:158][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.13.24:159][637]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.13.24:159][637]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.13.24:162][637]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.13.24:163][637]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.13.24:174][637]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.13.24:174][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.13.24:174][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.13.24:174][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.13.24:175][637]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.13.24:175][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.13.24:175][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.13.24:189][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.13.24:189][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.13.24:189][637]LogInit: FAudioDevice initialized.
+[2021.02.05-19.13.24:189][637]LogAudio: Display: Audio Device (ID: 5) registered with world 'BuildingEscape'.
+[2021.02.05-19.13.24:198][637]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.13.24:200][637]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.13.24:200][637]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.13.24:200][637]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.13.24:200][637]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.13.24:200][637]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.13.24
+[2021.02.05-19.13.24:201][637]LogWorld: Bringing up level for play took: 0.001349
+[2021.02.05-19.13.24:201][637]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.02.05-19.13.24:204][637]PIE: Server logged in
+[2021.02.05-19.13.24:204][637]PIE: Play in editor total start time 0,087 seconds.
+[2021.02.05-19.13.39:054][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.13.39:054][410]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.13.39:055][410]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.13.39:055][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.13.39:067][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.13.39:084][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.13.39:090][410]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.05-19.13.39:090][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.13.39:091][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.13.39:108][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.13.39:110][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.02.05-19.13.39:160][411]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.02.05-19.13.41:028][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.02.05-19.13.41:053][466]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscapeDC6AEEC14F69B82CC37A5EBAE8217E07.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape.umap'
+[2021.02.05-19.13.41:108][466]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscape_BuiltData07211D4E48B2A7FD8EB7519B9E2DC2A9.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape_BuiltData.uasset'
+[2021.02.05-19.13.41:118][466]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.05-19.13.41:118][466]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/BuildingEscape_BuiltData.BuildingEscape_BuiltData
+[2021.02.05-19.13.41:118][466]LogContentValidation: Display: Validating World /Game/Levels/BuildingEscape.BuildingEscape
+[2021.02.05-19.23.53:631][298]LogHotReload: New module detected: UE4Editor-BuildingEscape-0043.dll
+[2021.02.05-19.23.54:327][301]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.05-19.23.54:377][301]LogClass: Could not find existing class DoorOpener in package /Script/BuildingEscape for HotReload, assuming new class
+[2021.02.05-19.23.54:381][301]LogHotReload: Re-instancing DoorOpener after hot-reload.
+[2021.02.05-19.23.54:385][301]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.02.05-19.23.54:386][301]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.05-19.23.54:429][301]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0111 seconds. Added 3604 classes and 861 folders.
+[2021.02.05-19.23.54:433][301]Display: HotReload took  0.1s.
+[2021.02.05-19.24.00:893][407]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.24.00:905][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.24.00:905][407]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.24.00)
+[2021.02.05-19.24.00:905][407]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.24.00:913][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007438s)
+[2021.02.05-19.24.00:915][407]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.24.00:915][407]LogPlayLevel: PIE: World Init took: (0.002088s)
+[2021.02.05-19.24.00:915][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.009809s)
+[2021.02.05-19.24.00:922][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.02.05-19.24.00:923][407]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.02.05-19.24.00:923][407]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.24.00:923][407]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.24.00:923][407]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.24.00:923][407]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.24.00:923][407]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.24.00:923][407]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.24.00:923][407]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.24.00:923][407]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.24.00:924][407]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.24.00:924][407]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.24.00:928][407]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.24.00:928][407]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.24.00:939][407]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.24.00:940][407]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.24.00:940][407]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.24.00:940][407]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.24.00:940][407]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.24.00:940][407]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.24.00:940][407]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.24.00:956][407]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.24.00:956][407]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.24.00:956][407]LogInit: FAudioDevice initialized.
+[2021.02.05-19.24.00:956][407]LogAudio: Display: Audio Device (ID: 6) registered with world 'BuildingEscape'.
+[2021.02.05-19.24.00:970][407]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.24.00:971][407]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.24.00:971][407]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.24.00:971][407]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.24.00:971][407]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.24.00:972][407]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.24.00
+[2021.02.05-19.24.00:972][407]LogWorld: Bringing up level for play took: 0.001596
+[2021.02.05-19.24.00:972][407]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.02.05-19.24.00:974][407]PIE: Server logged in
+[2021.02.05-19.24.00:975][407]PIE: Play in editor total start time 0,071 seconds.
+[2021.02.05-19.24.09:325][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.24.09:325][400]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.24.09:325][400]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.24.09:325][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.24.09:338][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.24.09:356][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.24.09:361][400]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.05-19.24.09:361][400]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.24.09:362][400]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.24.09:377][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.24.09:379][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.02.05-19.24.09:435][401]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.02.05-19.24.13:367][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2021.02.05-19.24.14:485][899]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.05-19.24.19:108][420]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.24.19:120][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.24.19:120][420]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.24.19)
+[2021.02.05-19.24.19:120][420]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.24.19:127][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006851s)
+[2021.02.05-19.24.19:128][420]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.24.19:129][420]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2021.02.05-19.24.19:129][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.008444s)
+[2021.02.05-19.24.19:134][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.02.05-19.24.19:135][420]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.02.05-19.24.19:135][420]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.24.19:135][420]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.24.19:135][420]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.24.19:135][420]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.24.19:135][420]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.24.19:135][420]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.24.19:135][420]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.24.19:135][420]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.24.19:136][420]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.24.19:136][420]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.24.19:140][420]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.24.19:140][420]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.24.19:152][420]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.24.19:152][420]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.24.19:152][420]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.24.19:152][420]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.24.19:153][420]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.24.19:153][420]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.24.19:153][420]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.24.19:168][420]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.24.19:168][420]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.24.19:168][420]LogInit: FAudioDevice initialized.
+[2021.02.05-19.24.19:168][420]LogAudio: Display: Audio Device (ID: 7) registered with world 'BuildingEscape'.
+[2021.02.05-19.24.19:178][420]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.24.19:180][420]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.24.19:180][420]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.24.19:180][420]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.24.19:180][420]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.24.19:180][420]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.24.19
+[2021.02.05-19.24.19:181][420]LogWorld: Bringing up level for play took: 0.001532
+[2021.02.05-19.24.19:181][420]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.02.05-19.24.19:183][420]PIE: Server logged in
+[2021.02.05-19.24.19:184][420]PIE: Play in editor total start time 0,065 seconds.
+[2021.02.05-19.24.28:236][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.24.28:236][494]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.24.28:236][494]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.24.28:237][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.24.28:247][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.24.28:263][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.24.28:267][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.24.28:268][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.24.28:269][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.24.28:285][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.02.05-19.24.28:332][495]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.02.05-19.24.31:088][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.02.05-19.24.31:113][802]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscapeD96EDD1844363487E3CE9EA8781D5987.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape.umap'
+[2021.02.05-19.24.31:166][802]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscape_BuiltData98467074430C6CE467A1229469E584A3.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape_BuiltData.uasset'
+[2021.02.05-19.24.31:178][802]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.05-19.24.31:178][802]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/BuildingEscape_BuiltData.BuildingEscape_BuiltData
+[2021.02.05-19.24.31:178][802]LogContentValidation: Display: Validating World /Game/Levels/BuildingEscape.BuildingEscape
+[2021.02.05-19.24.31:807][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.02.05-19.24.31:830][869]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscape5A45A4824CEB2C8C9729658F9FB72041.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape.umap'
+[2021.02.05-19.24.31:882][869]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscape_BuiltData40DC34E14A95544C36EEAAB9190EE8F8.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape_BuiltData.uasset'
+[2021.02.05-19.24.31:894][869]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.05-19.24.31:895][869]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/BuildingEscape_BuiltData.BuildingEscape_BuiltData
+[2021.02.05-19.24.31:895][869]LogContentValidation: Display: Validating World /Game/Levels/BuildingEscape.BuildingEscape
+[2021.02.05-19.29.34:184][966]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.29.34:195][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.29.34:195][966]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.29.34)
+[2021.02.05-19.29.34:234][966]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.29.34:242][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008453s)
+[2021.02.05-19.29.34:244][966]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.29.34:244][966]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2021.02.05-19.29.34:244][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.010418s)
+[2021.02.05-19.29.34:249][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.02.05-19.29.34:250][966]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.02.05-19.29.34:250][966]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.29.34:250][966]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.29.34:250][966]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.29.34:250][966]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.29.34:250][966]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.29.34:250][966]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.29.34:250][966]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.29.34:250][966]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.29.34:251][966]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.29.34:251][966]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.29.34:255][966]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.29.34:255][966]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.29.34:266][966]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.29.34:267][966]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.29.34:267][966]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.29.34:267][966]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.29.34:267][966]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.29.34:267][966]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.29.34:267][966]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.29.34:281][966]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.29.34:281][966]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.29.34:281][966]LogInit: FAudioDevice initialized.
+[2021.02.05-19.29.34:281][966]LogAudio: Display: Audio Device (ID: 8) registered with world 'BuildingEscape'.
+[2021.02.05-19.29.34:290][966]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.29.34:292][966]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.29.34:292][966]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.29.34:292][966]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.29.34:292][966]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.29.34:292][966]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.29.34
+[2021.02.05-19.29.34:292][966]LogWorld: Bringing up level for play took: 0.001304
+[2021.02.05-19.29.34:293][966]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.02.05-19.29.34:295][966]PIE: Server logged in
+[2021.02.05-19.29.34:296][966]PIE: Play in editor total start time 0,102 seconds.
+[2021.02.05-19.30.30:835][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.30.30:835][737]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.30.30:836][737]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.30.30:836][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.30.30:849][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.30.30:867][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.30.30:871][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.30.30:872][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.30.30:873][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.30.30:892][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.02.05-19.30.30:941][738]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.02.05-19.30.36:953][383]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.30.36:965][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.30.36:965][383]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.30.36)
+[2021.02.05-19.30.36:994][383]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.30.37:000][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006418s)
+[2021.02.05-19.30.37:002][383]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.30.37:002][383]LogPlayLevel: PIE: World Init took: (0.001570s)
+[2021.02.05-19.30.37:002][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.008267s)
+[2021.02.05-19.30.37:007][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.02.05-19.30.37:008][383]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.02.05-19.30.37:008][383]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.30.37:008][383]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.30.37:008][383]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.30.37:008][383]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.30.37:008][383]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.30.37:008][383]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.30.37:008][383]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.30.37:008][383]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.30.37:009][383]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.30.37:009][383]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.30.37:012][383]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.30.37:012][383]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.30.37:022][383]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.30.37:022][383]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.30.37:022][383]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.30.37:022][383]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.30.37:023][383]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.30.37:023][383]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.30.37:023][383]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.30.37:036][383]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.30.37:036][383]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.30.37:036][383]LogInit: FAudioDevice initialized.
+[2021.02.05-19.30.37:036][383]LogAudio: Display: Audio Device (ID: 9) registered with world 'BuildingEscape'.
+[2021.02.05-19.30.37:047][383]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.30.37:048][383]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.30.37:048][383]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.30.37:049][383]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.30.37:049][383]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.30.37:049][383]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.30.37
+[2021.02.05-19.30.37:049][383]LogWorld: Bringing up level for play took: 0.001432
+[2021.02.05-19.30.37:050][383]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.02.05-19.30.37:052][383]PIE: Server logged in
+[2021.02.05-19.30.37:053][383]PIE: Play in editor total start time 0,089 seconds.
+[2021.02.05-19.31.28:288][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.31.28:288][520]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.31.28:289][520]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-19.31.28:290][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.31.28:318][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-19.31.28:379][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-19.31.28:388][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-19.31.28:389][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.31.28:390][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-19.31.28:428][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.02.05-19.31.28:528][521]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.02.05-19.43.28:394][325]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-19.43.28:408][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-19.43.28:408][325]PIE: New page: PIE session: BuildingEscape (5. feb. 2021 21.43.28)
+[2021.02.05-19.43.28:408][325]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.05-19.43.28:416][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007619s)
+[2021.02.05-19.43.28:417][325]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.05-19.43.28:417][325]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2021.02.05-19.43.28:417][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.009242s)
+[2021.02.05-19.43.28:423][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.02.05-19.43.28:423][325]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.02.05-19.43.28:423][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-19.43.28:423][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-19.43.28:423][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-19.43.28:423][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-19.43.28:423][325]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-19.43.28:424][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-19.43.28:424][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-19.43.28:424][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-19.43.28:424][325]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-19.43.28:424][325]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-19.43.28:429][325]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-19.43.28:429][325]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-19.43.28:440][325]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.05-19.43.28:441][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-19.43.28:441][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-19.43.28:441][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-19.43.28:442][325]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-19.43.28:442][325]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-19.43.28:442][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-19.43.28:455][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-19.43.28:455][325]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-19.43.28:455][325]LogInit: FAudioDevice initialized.
+[2021.02.05-19.43.28:456][325]LogAudio: Display: Audio Device (ID: 10) registered with world 'BuildingEscape'.
+[2021.02.05-19.43.28:467][325]LogLoad: Game class is 'GameModeBase'
+[2021.02.05-19.43.28:469][325]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.43.28:469][325]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.43.28:469][325]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.05-19.43.28:469][325]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.05-19.43.28:469][325]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.05-20.43.28
+[2021.02.05-19.43.28:470][325]LogWorld: Bringing up level for play took: 0.001888
+[2021.02.05-19.43.28:470][325]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.02.05-19.43.28:473][325]PIE: Server logged in
+[2021.02.05-19.43.28:474][325]PIE: Play in editor total start time 0,066 seconds.
+[2021.02.05-19.43.32:067][714]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2021.02.05-19.43.50:311][535]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.02.05-19.43.50:335][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.02.05-19.43.50:374][535]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Classes_Game/BuildingEscape/DefaultPawn_BP.DefaultPawn_BP
+[2021.02.05-19.43.51:240][535]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2021.02.05-19.43.52:219][535]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Classes_Game/BuildingEscape/DefaultPawn_BP' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Paper2D/', '/AnimationSharing/', '/GeometryMode/', '/SpeedTreeImporter/', '/Niagara/', '/MagicLeap/', '/MagicLeapPassableWorld/', '/MediaCompositing/', '/ChaosClothEditor/', '/ChaosNiagara/', '/ChaosSolverPlugin/', '/GeometryCollectionPlugin/', '/GeometryProcessing/', '/MotoSynth/', '/AudioSynesthesia/', '/PostSplashScreen/', '/Synthesis/', '/DatasmithContent/', '/OculusVR/', '/SteamVR/', '/Config/', '/Script/', '/Extra/', '/Memory/', or '/Temp/'
+[2021.02.05-19.43.52:219][535]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.02.05-19.43.52:220][535]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2021.02.05-19.43.54:501][535]LogWindows: Error: === Critical error: ===
+[2021.02.05-19.43.54:501][535]LogWindows: Error: 
+[2021.02.05-19.43.54:501][535]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/PackageName.cpp] [Line: 546] 
+[2021.02.05-19.43.54:501][535]LogWindows: Error: LongPackageNameToFilename failed to convert 'None'. Path does not map to any roots.
+[2021.02.05-19.43.54:501][535]LogWindows: Error: 
+[2021.02.05-19.43.54:501][535]LogWindows: Error: 
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff963d7d759 KERNELBASE.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff8f1c9c386 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff8f1c9fae8 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff8f19add5d UE4Editor-Core.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff8f2f31369 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff8ed508013 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff8ed476d69 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff8ed501a19 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff6a6c19b6a UE4Editor.exe!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff6a6c3113c UE4Editor.exe!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff6a6c3121a UE4Editor.exe!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff6a6c4527d UE4Editor.exe!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff6a6c47faa UE4Editor.exe!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff964927034 KERNEL32.DLL!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: [Callstack] 0x00007ff96635d0d1 ntdll.dll!UnknownFunction []
+[2021.02.05-19.43.54:501][535]LogWindows: Error: 
+[2021.02.05-19.43.54:514][535]LogExit: Executing StaticShutdownAfterError
+[2021.02.05-19.43.54:518][535]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.02.05-19.43.54:518][535]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.02.05-19.43.54:523][535]Log file closed, 02/05/21 20:43:54

@@ -33,14 +33,29 @@ void UDoorOpener::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	const float Time = GetWorld()->TimeSeconds;
 	if(PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpens))
+	{
 		OpenDoor(DeltaTime);
+		LastOpened = Time;
+	}
+	else if(LastOpened + CloseDelay < Time)
+	{
+		CloseDoor(DeltaTime);
+	}
 }
 
 void UDoorOpener::OpenDoor(float DeltaTime) const
 {
 	FRotator Rotation = GetOwner()->GetActorRotation();
-	Rotation.Yaw = FMath::FInterpTo(Rotation.Yaw, GetTargetYaw(), DeltaTime, 2.f);
+	Rotation.Yaw = FMath::FInterpTo(Rotation.Yaw, GetOpenYaw(), DeltaTime, OpenSpeed);
+	GetOwner()->SetActorRotation(Rotation);
+}
+
+void UDoorOpener::CloseDoor(float DeltaTime) const
+{
+	FRotator Rotation = GetOwner()->GetActorRotation();
+	Rotation.Yaw = FMath::FInterpTo(Rotation.Yaw, GetClosedYaw(), DeltaTime, CloseSpeed);
 	GetOwner()->SetActorRotation(Rotation);
 }
 

@@ -29,15 +29,28 @@ public:
 
 		
 private:
+	void OpenDoor(float DeltaTime) const;
+	void CloseDoor(float DeltaTime) const;
+	
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 	UPROPERTY(EditAnywhere)
 	AActor* ActorThatOpens;
-	
+
 	UPROPERTY(EditAnywhere)
 	float OpenAngle = 90.f;
-	float StartYaw;
-	float GetTargetYaw() const { return StartYaw + OpenAngle;};
+	UPROPERTY(EditAnywhere)
+	float ClosedAngle = 0.f;
+	UPROPERTY(EditAnywhere)
+	float OpenSpeed = .8f;
+	UPROPERTY(EditAnywhere)
+	float CloseSpeed = 2.f;
+	UPROPERTY(EditAnywhere)
+	float CloseDelay = 1.f;
 
-	void OpenDoor(float DeltaTime) const;
+	float LastOpened = 0;
+	float StartYaw;
+	float GetOpenYaw() const { return StartYaw + OpenAngle; };
+	float GetClosedYaw() const { return StartYaw + ClosedAngle; };
+
 };
