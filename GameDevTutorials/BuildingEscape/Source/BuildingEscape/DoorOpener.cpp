@@ -3,6 +3,8 @@
 
 #include "DoorOpener.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/PlayerController.h"
+#include "Engine/World.h"
 
 // Sets default values for this component's properties
 UDoorOpener::UDoorOpener()
@@ -19,18 +21,26 @@ UDoorOpener::UDoorOpener()
 void UDoorOpener::BeginPlay()
 {
 	Super::BeginPlay();
+	StartYaw = GetOwner()->GetActorRotation().Yaw;
 
-	// ...
-	GetOwner()->SetActorRotation(FRotator(0.f, 90.f, 0.f));
-	
+	if(!PressurePlate)
+		UE_LOG(LogTemp, Error, TEXT("%s does have the DoorOpener component attached but no PressurePlate set."), *GetOwner()->GetName());
+	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
-
 
 // Called every frame
 void UDoorOpener::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	if(PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpens))
+		OpenDoor(DeltaTime);
+}
+
+void UDoorOpener::OpenDoor(float DeltaTime) const
+{
+	FRotator Rotation = GetOwner()->GetActorRotation();
+	Rotation.Yaw = FMath::FInterpTo(Rotation.Yaw, GetTargetYaw(), DeltaTime, 2.f);
+	GetOwner()->SetActorRotation(Rotation);
 }
 
