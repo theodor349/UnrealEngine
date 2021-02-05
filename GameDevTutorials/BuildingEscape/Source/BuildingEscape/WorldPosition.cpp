@@ -20,11 +20,11 @@ void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
 
-	AActor* owner = GetOwner();
-	FString name = owner->GetName();
-	FVector pos = owner->GetTransform().GetLocation();
+	AActor* Owner = GetOwner();
+	FString Name = Owner->GetName();
+	FVector Pos = Owner->GetTransform().GetLocation();
 
-	UE_LOG(LogTemp, Warning, TEXT("%s is located at %s"), *name, *pos.ToString());
+	UE_LOG(LogTemp, Warning, TEXT("%s is located at %s"), *Name, *Pos.ToString());
 }
 
 
