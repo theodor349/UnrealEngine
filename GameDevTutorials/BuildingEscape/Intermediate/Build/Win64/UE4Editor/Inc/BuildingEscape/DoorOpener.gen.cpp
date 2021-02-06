@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeDoorOpener() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_BuildingEscape();
 	ENGINE_API UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 // End Cross Module References
 	void UDoorOpener::StaticRegisterNativesUDoorOpener()
 	{
@@ -38,9 +38,9 @@ void EmptyLinkFunctionForGeneratedCodeDoorOpener() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PressurePlate;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorThatOpens_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AudioComponent_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorThatOpens;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AudioComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OpenAngle_MetaData[];
 #endif
@@ -89,12 +89,12 @@ void EmptyLinkFunctionForGeneratedCodeDoorOpener() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDoorOpener_Statics::NewProp_PressurePlate = { "PressurePlate", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDoorOpener, PressurePlate), Z_Construct_UClass_ATriggerVolume_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDoorOpener_Statics::NewProp_PressurePlate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDoorOpener_Statics::NewProp_PressurePlate_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDoorOpener_Statics::NewProp_ActorThatOpens_MetaData[] = {
-		{ "Category", "DoorOpener" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDoorOpener_Statics::NewProp_AudioComponent_MetaData[] = {
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "DoorOpener.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDoorOpener_Statics::NewProp_ActorThatOpens = { "ActorThatOpens", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDoorOpener, ActorThatOpens), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDoorOpener_Statics::NewProp_ActorThatOpens_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDoorOpener_Statics::NewProp_ActorThatOpens_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDoorOpener_Statics::NewProp_AudioComponent = { "AudioComponent", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDoorOpener, AudioComponent), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDoorOpener_Statics::NewProp_AudioComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDoorOpener_Statics::NewProp_AudioComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDoorOpener_Statics::NewProp_OpenAngle_MetaData[] = {
 		{ "Category", "DoorOpener" },
@@ -139,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeDoorOpener() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UDoorOpener_Statics::NewProp_NeededMass = { "NeededMass", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDoorOpener, NeededMass), METADATA_PARAMS(Z_Construct_UClass_UDoorOpener_Statics::NewProp_NeededMass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDoorOpener_Statics::NewProp_NeededMass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDoorOpener_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorOpener_Statics::NewProp_PressurePlate,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorOpener_Statics::NewProp_ActorThatOpens,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorOpener_Statics::NewProp_AudioComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorOpener_Statics::NewProp_OpenAngle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorOpener_Statics::NewProp_ClosedAngle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDoorOpener_Statics::NewProp_OpenSpeed,
@@ -174,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeDoorOpener() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDoorOpener, 837161289);
+	IMPLEMENT_CLASS(UDoorOpener, 4223080842);
 	template<> BUILDINGESCAPE_API UClass* StaticClass<UDoorOpener>()
 	{
 		return UDoorOpener::StaticClass();

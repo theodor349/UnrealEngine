@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Components/AudioComponent.h"
 #include "Engine/TriggerVolume.h"
 
 
@@ -26,16 +27,15 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		
+	
 private:
-	void OpenDoor(float DeltaTime) const;
-	void CloseDoor(float DeltaTime) const;
+	void OpenDoor(float DeltaTime);
+	void CloseDoor(float DeltaTime);
 	
 	UPROPERTY(EditAnywhere)
-	ATriggerVolume* PressurePlate;
-	UPROPERTY(EditAnywhere)
-	AActor* ActorThatOpens;
+	ATriggerVolume* PressurePlate = nullptr;
+	UPROPERTY()
+	UAudioComponent* AudioComponent = nullptr;
 
 	UPROPERTY(EditAnywhere)
 	float OpenAngle = 90.f;
@@ -50,11 +50,14 @@ private:
 	UPROPERTY(EditAnywhere)
 	float NeededMass = 60.f;
 
+	bool LastSoundWasOpen = false;
+	
 	float LastOpened = 0;
 	float StartYaw;
 	float GetOpenYaw() const { return StartYaw + OpenAngle; };
 	float GetClosedYaw() const { return StartYaw + ClosedAngle; };
-
+	
 	float TotalMassOfActors() const;
-
+	void CheckForPressurePlate();
+	void FindAudioComponent();
 };

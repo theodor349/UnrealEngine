@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BUILDINGESCAPE_DoorOpener_generated_h
 
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_SPARSE_DATA
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_RPC_WRAPPERS
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_INCLASS_NO_PURE_DECLS \
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_SPARSE_DATA
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_RPC_WRAPPERS
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDoorOpener(); \
 	friend struct Z_Construct_UClass_UDoorOpener_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UDoorOpener)
 
 
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_INCLASS \
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUDoorOpener(); \
 	friend struct Z_Construct_UClass_UDoorOpener_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UDoorOpener)
 
 
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_STANDARD_CONSTRUCTORS \
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDoorOpener(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDoorOpener) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_ENHANCED_CONSTRUCTORS \
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UDoorOpener(UDoorOpener&&); \
@@ -58,9 +58,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDoorOpener); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDoorOpener)
 
 
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_PRIVATE_PROPERTY_OFFSET \
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UDoorOpener, PressurePlate); } \
-	FORCEINLINE static uint32 __PPO__ActorThatOpens() { return STRUCT_OFFSET(UDoorOpener, ActorThatOpens); } \
+	FORCEINLINE static uint32 __PPO__AudioComponent() { return STRUCT_OFFSET(UDoorOpener, AudioComponent); } \
 	FORCEINLINE static uint32 __PPO__OpenAngle() { return STRUCT_OFFSET(UDoorOpener, OpenAngle); } \
 	FORCEINLINE static uint32 __PPO__ClosedAngle() { return STRUCT_OFFSET(UDoorOpener, ClosedAngle); } \
 	FORCEINLINE static uint32 __PPO__OpenSpeed() { return STRUCT_OFFSET(UDoorOpener, OpenSpeed); } \
@@ -69,27 +69,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDoorOpener); \
 	FORCEINLINE static uint32 __PPO__NeededMass() { return STRUCT_OFFSET(UDoorOpener, NeededMass); }
 
 
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_13_PROLOG
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_GENERATED_BODY_LEGACY \
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_14_PROLOG
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_PRIVATE_PROPERTY_OFFSET \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_SPARSE_DATA \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_RPC_WRAPPERS \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_INCLASS \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_STANDARD_CONSTRUCTORS \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_PRIVATE_PROPERTY_OFFSET \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_SPARSE_DATA \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_RPC_WRAPPERS \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_INCLASS \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_GENERATED_BODY \
+#define BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_PRIVATE_PROPERTY_OFFSET \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_SPARSE_DATA \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_INCLASS_NO_PURE_DECLS \
-	BuildingEscape_Source_BuildingEscape_DoorOpener_h_16_ENHANCED_CONSTRUCTORS \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_PRIVATE_PROPERTY_OFFSET \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_SPARSE_DATA \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_INCLASS_NO_PURE_DECLS \
+	BuildingEscape_Source_BuildingEscape_DoorOpener_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

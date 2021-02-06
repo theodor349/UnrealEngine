@@ -51,6 +51,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	if(PhysicsHandle->GrabbedComponent)
 	{
+		if(!PhysicsHandle) return;
 		PhysicsHandle->SetTargetLocation(GetReachEndLocation());
 	}
 }
@@ -61,6 +62,7 @@ void UGrabber::Grab()
 	UPrimitiveComponent* ComponentToGrab = Hit.GetComponent();
 	if(Hit.GetActor())
 	{
+		if(!PhysicsHandle) return;
 		PhysicsHandle->GrabComponentAtLocation(
 			ComponentToGrab,
 			NAME_None,
@@ -71,6 +73,7 @@ void UGrabber::Grab()
 
 void UGrabber::Release()
 {
+	if(!PhysicsHandle) return;
 	PhysicsHandle->ReleaseComponent();
 }
 
