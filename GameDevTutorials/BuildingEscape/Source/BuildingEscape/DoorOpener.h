@@ -47,10 +47,14 @@ private:
 	float CloseSpeed = 2.f;
 	UPROPERTY(EditAnywhere)
 	float CloseDelay = 1.f;
+	UPROPERTY(EditAnywhere)
+	float NeededMass = 60.f;
 
 	float LastOpened = 0;
 	float StartYaw;
 	float GetOpenYaw() const { return StartYaw + OpenAngle; };
 	float GetClosedYaw() const { return StartYaw + ClosedAngle; };
+
+	float TotalMassOfActors() const;
 
 };

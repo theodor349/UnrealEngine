@@ -2,9 +2,12 @@
 
 
 #include "DoorOpener.h"
+#include "Components/PrimitiveComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
+
+#define OUT
 
 // Sets default values for this component's properties
 UDoorOpener::UDoorOpener()
@@ -12,8 +15,6 @@ UDoorOpener::UDoorOpener()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
 
@@ -34,7 +35,7 @@ void UDoorOpener::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	const float Time = GetWorld()->TimeSeconds;
-	if(PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpens))
+	if(TotalMassOfActors() >= NeededMass)
 	{
 		OpenDoor(DeltaTime);
 		LastOpened = Time;
@@ -57,5 +58,17 @@ void UDoorOpener::CloseDoor(float DeltaTime) const
 	FRotator Rotation = GetOwner()->GetActorRotation();
 	Rotation.Yaw = FMath::FInterpTo(Rotation.Yaw, GetClosedYaw(), DeltaTime, CloseSpeed);
 	GetOwner()->SetActorRotation(Rotation);
+}
+
+float UDoorOpener::TotalMassOfActors() const
+{
+	float Mass = 0;
+	TArray<AActor*> OverlappingActors;
+	PressurePlate->GetOverlappingActors(OUT OverlappingActors);
+	for(AActor* Actor : OverlappingActors)
+	{
+		Mass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+	}
+	return Mass;
 }
 

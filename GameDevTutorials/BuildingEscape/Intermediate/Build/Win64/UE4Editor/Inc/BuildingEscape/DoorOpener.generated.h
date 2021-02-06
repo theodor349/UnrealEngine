@@ -65,7 +65,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDoorOpener); \
 	FORCEINLINE static uint32 __PPO__ClosedAngle() { return STRUCT_OFFSET(UDoorOpener, ClosedAngle); } \
 	FORCEINLINE static uint32 __PPO__OpenSpeed() { return STRUCT_OFFSET(UDoorOpener, OpenSpeed); } \
 	FORCEINLINE static uint32 __PPO__CloseSpeed() { return STRUCT_OFFSET(UDoorOpener, CloseSpeed); } \
-	FORCEINLINE static uint32 __PPO__CloseDelay() { return STRUCT_OFFSET(UDoorOpener, CloseDelay); }
+	FORCEINLINE static uint32 __PPO__CloseDelay() { return STRUCT_OFFSET(UDoorOpener, CloseDelay); } \
+	FORCEINLINE static uint32 __PPO__NeededMass() { return STRUCT_OFFSET(UDoorOpener, NeededMass); }
 
 
 #define BuildingEscape_Source_BuildingEscape_DoorOpener_h_13_PROLOG

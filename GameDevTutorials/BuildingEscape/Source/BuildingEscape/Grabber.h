@@ -38,5 +38,8 @@ private:
 	void FindPhysicsHandle();
 	void SetupInput();
 
-	FHitResult GetFirstPhysicsBodyInReach();
+	FHitResult GetFirstPhysicsBodyInReach() const;
+	FVector GetReachEndLocation() const;
+	FVector GetPlayerLocation() const;
+	FRotator GetPlayerRotation() const;
 };
