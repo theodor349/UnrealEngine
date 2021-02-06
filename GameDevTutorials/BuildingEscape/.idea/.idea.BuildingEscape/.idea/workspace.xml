@@ -8,8 +8,6 @@
     <list default="true" id="8191a7a6-9ca8-40e1-bf7d-ed165b81b3fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuildingEscape/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/DefaultPawn_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/DefaultPawn_BP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Levels/BuildingEscape.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/BuildingEscape.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
@@ -19,18 +17,8 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BuildingEscapeEditor/Development/Metadata-HotReload.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/BuildingEscape/Grabber.gen.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/BuildingEscape.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/BuildingEscape.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Grabber.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Grabber.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Grabber.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Grabber.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/BuildingEscape/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape-backup-2021.02.03-19.38.28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape-backup-2021.02.05-12.04.02.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/BuildingEscape.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/BuildingEscape.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.h" afterDir="false" />
@@ -302,7 +290,7 @@
       <workItem from="1612546809928" duration="4288000" />
       <workItem from="1612551605648" duration="3226000" />
       <workItem from="1612606797786" duration="3174000" />
-      <workItem from="1612610677380" duration="651000" />
+      <workItem from="1612610677380" duration="4407000" />
     </task>
     <servers />
   </component>

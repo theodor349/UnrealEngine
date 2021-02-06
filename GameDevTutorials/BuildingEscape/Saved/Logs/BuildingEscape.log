@@ -4181,3 +4181,573 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.06-11.28.55:092][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.02.06-11.28.55:096][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
 [2021.02.06-11.28.55:131][324]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.02.06-12.01.40:034][750]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.02.06-15.47.29:810][748]LogHotReload: New module detected: UE4Editor-BuildingEscape-0058.dll
+[2021.02.06-15.47.30:873][753]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.06-15.47.30:953][753]LogClass: Could not find existing class Grabber in package /Script/BuildingEscape for HotReload, assuming new class
+[2021.02.06-15.47.30:969][753]LogHotReload: Re-instancing Grabber after hot-reload.
+[2021.02.06-15.47.30:997][753]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2021.02.06-15.47.31:005][753]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.06-15.47.31:136][753]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0111 seconds. Added 3605 classes and 861 folders.
+[2021.02.06-15.47.31:141][753]Display: HotReload took  0.3s.
+[2021.02.06-15.47.33:098][844]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-15.47.33:117][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-15.47.33:117][844]PIE: New page: PIE session: BuildingEscape (6. feb. 2021 17.47.33)
+[2021.02.06-15.47.33:148][844]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-15.47.33:161][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012933s)
+[2021.02.06-15.47.33:162][844]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.06-15.47.33:163][844]LogPlayLevel: PIE: World Init took: (0.001975s)
+[2021.02.06-15.47.33:163][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.015202s)
+[2021.02.06-15.47.33:254][844]LogUObjectHash: Compacting FUObjectHashTables data took   6.31ms
+[2021.02.06-15.47.33:257][844]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.02.06-15.47.33:257][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-15.47.33:257][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-15.47.33:257][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-15.47.33:257][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-15.47.33:257][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-15.47.33:257][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-15.47.33:257][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-15.47.33:257][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-15.47.33:258][844]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-15.47.33:258][844]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-15.47.33:262][844]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-15.47.33:262][844]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-15.47.33:274][844]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.06-15.47.33:274][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-15.47.33:274][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-15.47.33:274][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-15.47.33:275][844]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-15.47.33:275][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-15.47.33:275][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-15.47.33:288][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-15.47.33:288][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-15.47.33:288][844]LogInit: FAudioDevice initialized.
+[2021.02.06-15.47.33:288][844]LogAudio: Display: Audio Device (ID: 5) registered with world 'BuildingEscape'.
+[2021.02.06-15.47.33:297][844]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2021.02.06-15.47.33:298][844]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-15.47.33:298][844]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-15.47.33:299][844]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-15.47.33:299][844]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-15.47.33:299][844]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.06-16.47.33
+[2021.02.06-15.47.33:300][844]LogWorld: Bringing up level for play took: 0.002130
+[2021.02.06-15.47.33:300][844]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.02.06-15.47.33:303][844]PIE: Server logged in
+[2021.02.06-15.47.33:304][844]PIE: Play in editor total start time 0,188 seconds.
+[2021.02.06-15.47.35:619][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.47.35:619][105]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-15.47.35:619][105]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-15.47.35:619][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.47.35:631][105]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-15.47.35:636][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.47.35:660][105]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.06-15.47.35:663][105]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.47.35:664][105]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.47.35:680][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.47.35:709][105]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.02.06-15.47.35:746][106]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.02.06-15.55.03:676][836]LogHotReload: New module detected: UE4Editor-BuildingEscape-0061.dll
+[2021.02.06-15.55.04:359][839]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.06-15.55.04:417][839]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2021.02.06-15.55.04:421][839]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.06-15.55.04:540][839]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3605 classes and 861 folders.
+[2021.02.06-15.55.04:543][839]Display: HotReload took  0.2s.
+[2021.02.06-15.55.12:374][961]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-15.55.12:389][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-15.55.12:389][961]PIE: New page: PIE session: BuildingEscape (6. feb. 2021 17.55.12)
+[2021.02.06-15.55.12:389][961]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-15.55.12:399][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009979s)
+[2021.02.06-15.55.12:400][961]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.06-15.55.12:401][961]LogPlayLevel: PIE: World Init took: (0.001779s)
+[2021.02.06-15.55.12:401][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.012009s)
+[2021.02.06-15.55.12:488][961]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2021.02.06-15.55.12:489][961]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.02.06-15.55.12:489][961]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-15.55.12:489][961]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-15.55.12:489][961]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-15.55.12:489][961]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-15.55.12:489][961]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-15.55.12:489][961]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-15.55.12:489][961]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-15.55.12:489][961]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-15.55.12:490][961]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-15.55.12:490][961]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-15.55.12:495][961]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-15.55.12:495][961]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-15.55.12:508][961]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.06-15.55.12:508][961]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-15.55.12:508][961]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-15.55.12:508][961]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-15.55.12:509][961]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-15.55.12:509][961]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-15.55.12:509][961]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-15.55.12:525][961]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-15.55.12:525][961]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-15.55.12:525][961]LogInit: FAudioDevice initialized.
+[2021.02.06-15.55.12:525][961]LogAudio: Display: Audio Device (ID: 6) registered with world 'BuildingEscape'.
+[2021.02.06-15.55.12:535][961]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2021.02.06-15.55.12:537][961]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-15.55.12:537][961]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-15.55.12:537][961]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-15.55.12:537][961]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-15.55.12:538][961]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.06-16.55.12
+[2021.02.06-15.55.12:538][961]LogWorld: Bringing up level for play took: 0.001898
+[2021.02.06-15.55.12:538][961]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.02.06-15.55.12:541][961]PIE: Server logged in
+[2021.02.06-15.55.12:543][961]PIE: Play in editor total start time 0,155 seconds.
+[2021.02.06-15.55.13:166][ 24]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.14:121][136]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.14:688][204]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.15:082][251]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.15:492][300]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.15:705][325]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.15:882][346]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.16:108][373]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.16:326][399]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.16:535][424]LogTemp: Warning: Grabbing
+[2021.02.06-15.55.16:959][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.55.16:959][472]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-15.55.16:959][472]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-15.55.16:959][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.55.16:972][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-15.55.16:977][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.55.17:003][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.55.17:007][472]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.55.17:008][472]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.55.17:049][472]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.02.06-15.55.17:089][473]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.02.06-15.59.59:833][356]LogHotReload: New module detected: UE4Editor-BuildingEscape-0062.dll
+[2021.02.06-16.00.00:527][359]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.06-16.00.00:584][359]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.02.06-16.00.00:589][359]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.06-16.00.00:713][359]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3605 classes and 861 folders.
+[2021.02.06-16.00.00:717][359]Display: HotReload took  0.2s.
+[2021.02.06-16.00.06:337][537]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-16.00.06:351][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-16.00.06:351][537]PIE: New page: PIE session: BuildingEscape (6. feb. 2021 18.00.06)
+[2021.02.06-16.00.06:378][537]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.00.06:386][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007359s)
+[2021.02.06-16.00.06:388][537]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.06-16.00.06:388][537]LogPlayLevel: PIE: World Init took: (0.002298s)
+[2021.02.06-16.00.06:389][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.010035s)
+[2021.02.06-16.00.06:471][537]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2021.02.06-16.00.06:472][537]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.02.06-16.00.06:472][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-16.00.06:472][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-16.00.06:472][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-16.00.06:472][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-16.00.06:472][537]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-16.00.06:472][537]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-16.00.06:472][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-16.00.06:472][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-16.00.06:473][537]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-16.00.06:473][537]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-16.00.06:477][537]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-16.00.06:477][537]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-16.00.06:488][537]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.06-16.00.06:489][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-16.00.06:489][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-16.00.06:489][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-16.00.06:490][537]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-16.00.06:490][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-16.00.06:490][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-16.00.06:504][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-16.00.06:504][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-16.00.06:504][537]LogInit: FAudioDevice initialized.
+[2021.02.06-16.00.06:504][537]LogAudio: Display: Audio Device (ID: 7) registered with world 'BuildingEscape'.
+[2021.02.06-16.00.06:512][537]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2021.02.06-16.00.06:514][537]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.00.06:514][537]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.00.06:514][537]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.00.06:514][537]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.00.06:515][537]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.06-17.00.06
+[2021.02.06-16.00.06:515][537]LogWorld: Bringing up level for play took: 0.001755
+[2021.02.06-16.00.06:515][537]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.02.06-16.00.06:518][537]PIE: Server logged in
+[2021.02.06-16.00.06:519][537]PIE: Play in editor total start time 0,169 seconds.
+[2021.02.06-16.00.08:017][710]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.09:726][915]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.10:698][ 31]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.11:147][ 85]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.11:466][123]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.11:757][158]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.11:982][184]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.12:084][195]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.12:177][205]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.12:269][216]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.12:391][230]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.12:461][238]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.12:546][248]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.12:672][263]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.12:742][271]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.12:847][282]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.12:911][289]LogTemp: Warning: Grabbing
+[2021.02.06-16.00.13:007][299]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.00.13:309][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.00.13:309][330]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.00.13:309][330]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-16.00.13:309][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.00.13:314][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-16.00.13:320][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.00.13:345][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.00.13:349][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.00.13:351][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.00.13:400][330]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.02.06-16.00.13:439][331]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.02.06-16.16.03:849][258]LogHotReload: New module detected: UE4Editor-BuildingEscape-0063.dll
+[2021.02.06-16.16.04:872][262]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.06-16.16.04:939][262]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2021.02.06-16.16.04:944][262]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.06-16.16.05:066][262]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3605 classes and 861 folders.
+[2021.02.06-16.16.05:070][262]Display: HotReload took  0.2s.
+[2021.02.06-16.16.07:739][346]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-16.16.07:756][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-16.16.07:756][346]PIE: New page: PIE session: BuildingEscape (6. feb. 2021 18.16.07)
+[2021.02.06-16.16.07:756][346]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.16.07:764][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007890s)
+[2021.02.06-16.16.07:766][346]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.06-16.16.07:766][346]LogPlayLevel: PIE: World Init took: (0.001930s)
+[2021.02.06-16.16.07:766][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.010067s)
+[2021.02.06-16.16.07:859][346]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.02.06-16.16.07:859][346]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.02.06-16.16.07:859][346]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-16.16.07:859][346]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-16.16.07:859][346]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-16.16.07:859][346]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-16.16.07:860][346]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-16.16.07:860][346]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-16.16.07:860][346]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-16.16.07:860][346]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-16.16.07:860][346]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-16.16.07:860][346]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-16.16.07:865][346]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-16.16.07:865][346]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-16.16.07:877][346]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.06-16.16.07:878][346]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-16.16.07:878][346]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-16.16.07:878][346]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-16.16.07:879][346]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-16.16.07:879][346]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-16.16.07:879][346]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-16.16.07:894][346]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-16.16.07:894][346]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-16.16.07:894][346]LogInit: FAudioDevice initialized.
+[2021.02.06-16.16.07:894][346]LogAudio: Display: Audio Device (ID: 8) registered with world 'BuildingEscape'.
+[2021.02.06-16.16.07:903][346]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2021.02.06-16.16.07:905][346]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.16.07:905][346]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.16.07:905][346]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.16.07:906][346]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.16.07:906][346]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.06-17.16.07
+[2021.02.06-16.16.07:906][346]LogWorld: Bringing up level for play took: 0.001885
+[2021.02.06-16.16.07:906][346]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.02.06-16.16.07:909][346]PIE: Server logged in
+[2021.02.06-16.16.07:911][346]PIE: Play in editor total start time 0,156 seconds.
+[2021.02.06-16.16.08:369][392]LogTemp: Warning: Grabbing
+[2021.02.06-16.16.10:733][666]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:742][667]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:750][668]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:759][669]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:767][670]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:776][671]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:784][672]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:792][673]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:801][674]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:809][675]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:817][676]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:825][677]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:834][678]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:842][679]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:850][680]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:859][681]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:867][682]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:876][683]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:884][684]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:892][685]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:901][686]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:909][687]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:917][688]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:926][689]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:934][690]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:942][691]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.10:952][692]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:068][706]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:076][707]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:085][708]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:093][709]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:101][710]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:110][711]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:118][712]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:126][713]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:135][714]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:143][715]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:151][716]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:160][717]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:168][718]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:176][719]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:185][720]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:193][721]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:201][722]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:210][723]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:218][724]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:226][725]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:235][726]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:243][727]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:369][742]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:377][743]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:385][744]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:394][745]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:402][746]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:410][747]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:418][748]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:427][749]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:435][750]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:444][751]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:452][752]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:460][753]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:469][754]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:478][755]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:486][756]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:494][757]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:503][758]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:511][759]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:520][760]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:527][761]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:536][762]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:545][763]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:553][764]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:561][765]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:570][766]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:578][767]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:586][768]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:595][769]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:604][770]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:612][771]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:620][772]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:629][773]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:637][774]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:645][775]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:654][776]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:662][777]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:670][778]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:679][779]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:688][780]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:695][781]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:704][782]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:712][783]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:721][784]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:729][785]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:738][786]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:745][787]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:754][788]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:762][789]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:770][790]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:779][791]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:787][792]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:796][793]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:804][794]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:812][795]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:821][796]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:829][797]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:837][798]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:846][799]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:854][800]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:862][801]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:871][802]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:879][803]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:887][804]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:896][805]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:904][806]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:913][807]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:921][808]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:929][809]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:938][810]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:948][811]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:955][812]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:963][813]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:971][814]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:980][815]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:988][816]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.11:998][817]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:006][818]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:014][819]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:023][820]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:031][821]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:040][822]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:048][823]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:056][824]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:065][825]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:073][826]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:082][827]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:090][828]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:098][829]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:106][830]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:115][831]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:123][832]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:131][833]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:140][834]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:149][835]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:156][836]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:164][837]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:172][838]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:181][839]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:189][840]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:198][841]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:206][842]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:215][843]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:222][844]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:231][845]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.12:239][846]LogTemp: Warning: Looking at: Cone_5
+[2021.02.06-16.16.25:915][473]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.16.26:089][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.16.26:089][491]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.16.26:089][491]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-16.16.26:090][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.16.26:098][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-16.16.26:104][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.16.26:130][491]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.06-16.16.26:137][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.16.26:138][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.16.26:154][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.16.26:180][491]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.02.06-16.16.26:216][492]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.02.06-16.16.34:080][257]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2021.02.06-16.16.34:123][257]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscapeD9FA9C434359F25A0EB63287AF7FE758.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape.umap'
+[2021.02.06-16.16.34:200][257]LogSavePackage: Moving '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Saved/BuildingEscape_BuiltDataB017F2B842EE9019FCA8BD83B45DD5DF.tmp' to '../../../../../../Users/theod/Documents/GitHub/UnrealEngine/GameDevTutorials/BuildingEscape/Content/Levels/BuildingEscape_BuiltData.uasset'
+[2021.02.06-16.16.34:220][257]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.06-16.16.34:220][257]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/BuildingEscape_BuiltData.BuildingEscape_BuiltData
+[2021.02.06-16.16.34:220][257]LogContentValidation: Display: Validating World /Game/Levels/BuildingEscape.BuildingEscape
+[2021.02.06-16.31.27:648][222]LogHotReload: New module detected: UE4Editor-BuildingEscape-0064.dll
+[2021.02.06-16.31.28:714][226]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.06-16.31.28:801][226]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2021.02.06-16.31.28:808][226]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.06-16.31.28:950][226]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0168 seconds. Added 3605 classes and 861 folders.
+[2021.02.06-16.31.28:956][226]Display: HotReload took  0.2s.
+[2021.02.06-16.32.17:334][514]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-16.32.17:349][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-16.32.17:349][514]PIE: New page: PIE session: BuildingEscape (6. feb. 2021 18.32.17)
+[2021.02.06-16.32.17:389][514]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.32.17:397][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008152s)
+[2021.02.06-16.32.17:399][514]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.06-16.32.17:399][514]LogPlayLevel: PIE: World Init took: (0.002111s)
+[2021.02.06-16.32.17:399][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.010542s)
+[2021.02.06-16.32.17:486][514]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.02.06-16.32.17:486][514]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.02.06-16.32.17:486][514]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-16.32.17:486][514]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-16.32.17:486][514]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-16.32.17:486][514]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-16.32.17:486][514]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-16.32.17:486][514]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-16.32.17:486][514]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-16.32.17:487][514]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-16.32.17:487][514]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-16.32.17:487][514]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-16.32.17:492][514]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-16.32.17:492][514]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-16.32.17:503][514]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.06-16.32.17:504][514]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-16.32.17:504][514]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-16.32.17:504][514]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-16.32.17:504][514]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-16.32.17:504][514]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-16.32.17:504][514]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-16.32.17:518][514]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-16.32.17:518][514]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-16.32.17:518][514]LogInit: FAudioDevice initialized.
+[2021.02.06-16.32.17:519][514]LogAudio: Display: Audio Device (ID: 9) registered with world 'BuildingEscape'.
+[2021.02.06-16.32.17:525][514]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2021.02.06-16.32.17:527][514]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.32.17:527][514]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.32.17:527][514]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.32.17:527][514]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.32.17:527][514]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.06-17.32.17
+[2021.02.06-16.32.17:528][514]LogWorld: Bringing up level for play took: 0.001565
+[2021.02.06-16.32.17:528][514]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.02.06-16.32.17:530][514]PIE: Server logged in
+[2021.02.06-16.32.17:532][514]PIE: Play in editor total start time 0,184 seconds.
+[2021.02.06-16.32.18:045][570]LogTemp: Warning: Grabbing
+[2021.02.06-16.32.18:736][653]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.32.19:814][782]LogTemp: Warning: Grabbing
+[2021.02.06-16.32.20:276][837]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.32.21:620][998]LogTemp: Warning: Grabbing
+[2021.02.06-16.32.27:030][625]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.32.27:881][727]LogTemp: Warning: Grabbing
+[2021.02.06-16.32.28:015][743]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.32.28:860][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.32.28:860][840]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.32.28:860][840]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-16.32.28:860][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.32.28:869][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-16.32.28:874][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.32.28:897][840]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.06-16.32.28:897][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.32.28:898][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.32.28:914][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.32.28:919][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.02.06-16.32.28:958][841]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.02.06-16.33.35:315][115]LogHotReload: New module detected: UE4Editor-BuildingEscape-0065.dll
+[2021.02.06-16.33.36:345][119]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.06-16.33.36:406][119]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.02.06-16.33.36:411][119]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.06-16.33.36:532][119]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0114 seconds. Added 3605 classes and 861 folders.
+[2021.02.06-16.33.36:536][119]Display: HotReload took  0.2s.
+[2021.02.06-16.33.39:724][318]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-16.33.39:737][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-16.33.39:737][318]PIE: New page: PIE session: BuildingEscape (6. feb. 2021 18.33.39)
+[2021.02.06-16.33.39:758][318]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.33.39:766][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007695s)
+[2021.02.06-16.33.39:768][318]LogAIModule: Creating AISystem for world BuildingEscape
+[2021.02.06-16.33.39:768][318]LogPlayLevel: PIE: World Init took: (0.002034s)
+[2021.02.06-16.33.39:768][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BuildingEscape.BuildingEscape to /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape (0.009989s)
+[2021.02.06-16.33.39:888][318]LogUObjectHash: Compacting FUObjectHashTables data took   6.71ms
+[2021.02.06-16.33.39:889][318]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.02.06-16.33.39:889][318]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-16.33.39:889][318]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-16.33.39:889][318]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-16.33.39:889][318]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-16.33.39:889][318]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-16.33.39:889][318]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-16.33.39:889][318]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-16.33.39:889][318]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-16.33.39:890][318]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-16.33.39:890][318]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-16.33.39:896][318]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-16.33.39:896][318]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-16.33.39:912][318]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless Headset)
+[2021.02.06-16.33.39:912][318]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-16.33.39:912][318]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-16.33.39:912][318]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-16.33.39:913][318]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-16.33.39:913][318]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-16.33.39:913][318]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-16.33.39:928][318]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-16.33.39:928][318]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-16.33.39:928][318]LogInit: FAudioDevice initialized.
+[2021.02.06-16.33.39:929][318]LogAudio: Display: Audio Device (ID: 10) registered with world 'BuildingEscape'.
+[2021.02.06-16.33.39:943][318]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2021.02.06-16.33.39:944][318]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.33.39:945][318]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.33.39:945][318]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.02.06-16.33.39:945][318]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.02.06-16.33.39:945][318]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BuildingEscape.BuildingEscape up for play (max tick rate 0) at 2021.02.06-17.33.39
+[2021.02.06-16.33.39:946][318]LogWorld: Bringing up level for play took: 0.002148
+[2021.02.06-16.33.39:946][318]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.02.06-16.33.39:949][318]PIE: Server logged in
+[2021.02.06-16.33.39:951][318]PIE: Play in editor total start time 0,215 seconds.
+[2021.02.06-16.33.40:430][362]LogTemp: Warning: Grabbing
+[2021.02.06-16.33.41:043][435]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.33.41:941][542]LogTemp: Warning: Grabbing
+[2021.02.06-16.33.43:914][778]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.33.46:587][ 86]LogTemp: Warning: Grabbing
+[2021.02.06-16.33.51:593][681]LogTemp: Warning: Dropping stuff
+[2021.02.06-16.33.58:230][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.33.58:230][470]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BuildingEscape
+[2021.02.06-16.33.58:230][470]LogWorld: UWorld::CleanupWorld for BuildingEscape, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-16.33.58:231][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.33.58:243][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-16.33.58:252][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-16.33.58:280][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-16.33.58:282][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.33.58:283][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-16.33.58:353][470]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2021.02.06-16.33.58:403][471]LogPlayLevel: Display: Destroying online subsystem :Context_13
