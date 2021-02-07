@@ -6,8 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f79d1e2-4a5a-4797-8186-f8a15d2b18b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BluePrints/BP_PawnTank.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/BP_PawnTank.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BluePrints/BP_PawnTurret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/BP_PawnTurret.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToonTanks.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ToonTanks.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +25,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o93dJo0JnfbSbBY1Egj7F6rxjy" />
@@ -266,7 +272,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612685068865</updated>
-      <workItem from="1612685087054" duration="5366000" />
+      <workItem from="1612685087054" duration="8173000" />
     </task>
     <servers />
   </component>
