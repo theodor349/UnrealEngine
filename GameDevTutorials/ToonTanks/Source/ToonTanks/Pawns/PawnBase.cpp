@@ -36,10 +36,8 @@ void APawnBase::RotateTurret(FVector LookAtTarget)
 
 void APawnBase::Fire()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Fire"));
 	if(ProjectileClass)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Spawn"));
 		FVector SpawnLocation = ProjectileSpawnPoint->GetComponentLocation();
 		FRotator SpawnRotation = ProjectileSpawnPoint->GetComponentRotation();
 		
