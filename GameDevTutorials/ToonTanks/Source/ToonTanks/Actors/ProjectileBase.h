@@ -18,8 +18,13 @@ private:
 	UProjectileMovementComponent* ProjectileMovement;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
 	UStaticMeshComponent* ProjectileMesh;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
+	UParticleSystemComponent* ParticleTrail;
+	
 	UPROPERTY(EditAnywhere, Category="Components")
 	TSubclassOf<UDamageType> DamageType;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	TSubclassOf<UMatineeCameraShake> HitShake;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Move", meta=(AllowPrivateAccess="true"))
 	float MovementSpeed = 1300.f;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Damage", meta=(AllowPrivateAccess="true"))
@@ -27,6 +32,13 @@ private:
 
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+	UPROPERTY(EditAnywhere, Category="Effects")
+	UParticleSystem* HitParticle;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	USoundBase* HitSound;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	USoundBase* LaunchSound;
 	
 public:	
 	// Sets default values for this actor's properties
