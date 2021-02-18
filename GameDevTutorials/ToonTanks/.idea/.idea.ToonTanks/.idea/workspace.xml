@@ -6,24 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f79d1e2-4a5a-4797-8186-f8a15d2b18b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/Actors/BP_ProjectileBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/Actors/BP_ProjectileBase.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/GameModes/BP_GameModeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/GameModes/BP_GameModeBase.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/Pawns/BP_PawnTank.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/Pawns/BP_PawnTank.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BluePrints/Pawns/BP_PawnTurret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/Pawns/BP_PawnTurret.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/GameModes/TankGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/GameModes/TankGameModeBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/GameModes/TankGameModeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/GameModes/TankGameModeBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Prototype1.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Prototype1.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Editor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Logs/Prototype1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Logs/Prototype1.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,6 +292,7 @@
       <workItem from="1612798663549" duration="3196000" />
       <workItem from="1612882515910" duration="10648000" />
       <workItem from="1612962022546" duration="5495000" />
+      <workItem from="1613656095675" duration="4025000" />
     </task>
     <servers />
   </component>

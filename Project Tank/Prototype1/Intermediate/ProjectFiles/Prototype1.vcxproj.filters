@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Prototype1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F4497A37-4A3C-4BA3-8492-F208CC3991BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Prototype1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Prototype1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9D2962F2-5593-43CB-8234-2FD142FB466C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Prototype1">
+      <UniqueIdentifier>{DB06DCE8-6E2F-438D-A638-9BEA0A45D4EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Prototype1\Prototype1.Build.cs">
+      <Filter>Source\Prototype1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Prototype1\Prototype1.cpp">
+      <Filter>Source\Prototype1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype1\Prototype1.h">
+      <Filter>Source\Prototype1</Filter>
+    </ClInclude>
+    <Filter Include="Source\Prototype1\Pawns">
+      <UniqueIdentifier>{6EC8BE21-D361-499C-8DF2-F9B387615D1A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Prototype1\Pawns\EnemyBase.cpp">
+      <Filter>Source\Prototype1\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype1\Pawns\EnemyBase.h">
+      <Filter>Source\Prototype1\Pawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prototype1\Pawns\TankBase.cpp">
+      <Filter>Source\Prototype1\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype1\Pawns\TankBase.h">
+      <Filter>Source\Prototype1\Pawns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

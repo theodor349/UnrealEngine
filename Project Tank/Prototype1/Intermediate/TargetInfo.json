@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Prototype1",
+			"Path": "C:\\Users\\theod\\Documents\\GitHub\\UnrealEngine\\Project Tank\\Prototype1\\Source\\Prototype1.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Prototype1Editor",
+			"Path": "C:\\Users\\theod\\Documents\\GitHub\\UnrealEngine\\Project Tank\\Prototype1\\Source\\Prototype1Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
