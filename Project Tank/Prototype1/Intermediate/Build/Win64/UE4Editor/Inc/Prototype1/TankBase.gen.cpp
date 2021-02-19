@@ -60,9 +60,37 @@ void EmptyLinkFunctionForGeneratedCodeTankBase() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Target;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurnSpeed_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurretTurnSpeed_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TurnSpeed;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TurretTurnSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurretRotationOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TurretRotationOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurretMaxYaw_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TurretMaxYaw;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurretMinYaw_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TurretMinYaw;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CannonTurnSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CannonTurnSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CannonRotationOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CannonRotationOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CannonMaxRoll_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CannonMaxRoll;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CannonMinRoll_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CannonMinRoll;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -133,12 +161,61 @@ void EmptyLinkFunctionForGeneratedCodeTankBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_Target = { "Target", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, Target), Z_Construct_UClass_AEnemyBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_Target_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_Target_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_TurnSpeed_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_TurretTurnSpeed_MetaData[] = {
 		{ "Category", "Targeting" },
 		{ "ModuleRelativePath", "Pawns/TankBase.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_TurnSpeed = { "TurnSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, TurnSpeed), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_TurnSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_TurnSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_TurretTurnSpeed = { "TurretTurnSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, TurretTurnSpeed), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretTurnSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretTurnSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_TurretRotationOffset_MetaData[] = {
+		{ "Category", "Targeting" },
+		{ "ModuleRelativePath", "Pawns/TankBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_TurretRotationOffset = { "TurretRotationOffset", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, TurretRotationOffset), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretRotationOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretRotationOffset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMaxYaw_MetaData[] = {
+		{ "Category", "Targeting" },
+		{ "ModuleRelativePath", "Pawns/TankBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMaxYaw = { "TurretMaxYaw", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, TurretMaxYaw), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMaxYaw_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMaxYaw_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMinYaw_MetaData[] = {
+		{ "Category", "Targeting" },
+		{ "ModuleRelativePath", "Pawns/TankBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMinYaw = { "TurretMinYaw", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, TurretMinYaw), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMinYaw_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMinYaw_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_CannonTurnSpeed_MetaData[] = {
+		{ "Category", "Targeting" },
+		{ "ModuleRelativePath", "Pawns/TankBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_CannonTurnSpeed = { "CannonTurnSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, CannonTurnSpeed), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonTurnSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonTurnSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_CannonRotationOffset_MetaData[] = {
+		{ "Category", "Targeting" },
+		{ "ModuleRelativePath", "Pawns/TankBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_CannonRotationOffset = { "CannonRotationOffset", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, CannonRotationOffset), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonRotationOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonRotationOffset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMaxRoll_MetaData[] = {
+		{ "Category", "Targeting" },
+		{ "ModuleRelativePath", "Pawns/TankBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMaxRoll = { "CannonMaxRoll", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, CannonMaxRoll), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMaxRoll_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMaxRoll_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMinRoll_MetaData[] = {
+		{ "Category", "Targeting" },
+		{ "ModuleRelativePath", "Pawns/TankBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMinRoll = { "CannonMinRoll", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankBase, CannonMinRoll), METADATA_PARAMS(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMinRoll_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMinRoll_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATankBase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_CapsuleComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_BaseMesh,
@@ -146,7 +223,14 @@ void EmptyLinkFunctionForGeneratedCodeTankBase() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_ProjectileSpawnPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_Target,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_TurnSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_TurretTurnSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_TurretRotationOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMaxYaw,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_TurretMinYaw,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_CannonTurnSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_CannonRotationOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMaxRoll,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankBase_Statics::NewProp_CannonMinRoll,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATankBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATankBase>::IsAbstract,
@@ -175,7 +259,7 @@ void EmptyLinkFunctionForGeneratedCodeTankBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankBase, 1350971273);
+	IMPLEMENT_CLASS(ATankBase, 364432599);
 	template<> PROTOTYPE1_API UClass* StaticClass<ATankBase>()
 	{
 		return ATankBase::StaticClass();

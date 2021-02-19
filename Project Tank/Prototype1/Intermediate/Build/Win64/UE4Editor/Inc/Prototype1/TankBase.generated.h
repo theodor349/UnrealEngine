@@ -65,7 +65,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankBase); \
 	FORCEINLINE static uint32 __PPO__CannonMesh() { return STRUCT_OFFSET(ATankBase, CannonMesh); } \
 	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(ATankBase, ProjectileSpawnPoint); } \
 	FORCEINLINE static uint32 __PPO__Target() { return STRUCT_OFFSET(ATankBase, Target); } \
-	FORCEINLINE static uint32 __PPO__TurnSpeed() { return STRUCT_OFFSET(ATankBase, TurnSpeed); }
+	FORCEINLINE static uint32 __PPO__TurretTurnSpeed() { return STRUCT_OFFSET(ATankBase, TurretTurnSpeed); } \
+	FORCEINLINE static uint32 __PPO__TurretRotationOffset() { return STRUCT_OFFSET(ATankBase, TurretRotationOffset); } \
+	FORCEINLINE static uint32 __PPO__TurretMaxYaw() { return STRUCT_OFFSET(ATankBase, TurretMaxYaw); } \
+	FORCEINLINE static uint32 __PPO__TurretMinYaw() { return STRUCT_OFFSET(ATankBase, TurretMinYaw); } \
+	FORCEINLINE static uint32 __PPO__CannonTurnSpeed() { return STRUCT_OFFSET(ATankBase, CannonTurnSpeed); } \
+	FORCEINLINE static uint32 __PPO__CannonRotationOffset() { return STRUCT_OFFSET(ATankBase, CannonRotationOffset); } \
+	FORCEINLINE static uint32 __PPO__CannonMaxRoll() { return STRUCT_OFFSET(ATankBase, CannonMaxRoll); } \
+	FORCEINLINE static uint32 __PPO__CannonMinRoll() { return STRUCT_OFFSET(ATankBase, CannonMinRoll); }
 
 
 #define Prototype1_Source_Prototype1_Pawns_TankBase_h_12_PROLOG

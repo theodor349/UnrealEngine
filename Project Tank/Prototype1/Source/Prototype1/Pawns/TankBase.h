@@ -29,11 +29,29 @@ private:
 
 	UPROPERTY(EditAnywhere, Category="Targeting")
 	AEnemyBase* Target;
+
 	UPROPERTY(EditAnywhere, Category="Targeting")
-	float TurnSpeed = 20.f;
+	float TurretTurnSpeed = 20.f;
+	UPROPERTY(EditAnywhere, Category="Targeting")
+	float TurretRotationOffset = -90.f;
+	UPROPERTY(EditAnywhere, Category="Targeting")
+	float TurretMaxYaw = 360.f;
+	UPROPERTY(EditAnywhere, Category="Targeting")
+	float TurretMinYaw = -360.f;
+	
+	UPROPERTY(EditAnywhere, Category="Targeting")
+	float CannonTurnSpeed = 10.f;
+	UPROPERTY(EditAnywhere, Category="Targeting")
+	float CannonRotationOffset = -90.f;
+	UPROPERTY(EditAnywhere, Category="Targeting")
+	float CannonMaxRoll = 30.f;
+	UPROPERTY(EditAnywhere, Category="Targeting")
+	float CannonMinRoll = -10.f;
+
 	
 	void PointAt(FVector Position, float DeltaTime);
 	void PointTurretAt(FVector Position, float DeltaTime);
+	void PointCannonAt(FVector Position, float DeltaTime);
 	
 public:
 	// Sets default values for this pawn's properties

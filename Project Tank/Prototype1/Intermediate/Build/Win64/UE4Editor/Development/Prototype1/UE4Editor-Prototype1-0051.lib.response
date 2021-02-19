@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Prototype1-0051.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\Prototype1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\EnemyBase.cpp.obj"
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\TankBase.cpp.obj"
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\Prototype1.cpp.obj"
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\EnemyBase.gen.cpp.obj"
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\Prototype1.init.gen.cpp.obj"
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\TankBase.gen.cpp.obj"
+"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\Default.rc2.res"
+/OUT:"C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\UE4Editor-Prototype1-0051.lib"
+/INCLUDE:IMPLEMENT_MODULE_Prototype1
