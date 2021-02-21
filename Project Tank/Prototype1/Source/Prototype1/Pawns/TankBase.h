@@ -47,11 +47,6 @@ private:
 	float CannonMaxRoll = 30.f;
 	UPROPERTY(EditAnywhere, Category="Targeting")
 	float CannonMinRoll = -10.f;
-
-	
-	void PointAt(FVector Position, float DeltaTime);
-	void PointTurretAt(FVector Position, float DeltaTime);
-	void PointCannonAt(FVector Position, float DeltaTime);
 	
 public:
 	// Sets default values for this pawn's properties
@@ -68,4 +63,17 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+private:
+	FVector TargetRotation;
+	
+	void PointAt(FVector Position, float DeltaTime);
+	void PointTurretAt(FVector Position, float DeltaTime);
+	void PointCannonAt(FVector Position, float DeltaTime);
+
+	void SetTargetRotation();
+	void SetTargetYawRotation();
+	void SetTargetRollRotation();
+	void Rotate(float DeltaTime);
+	void RotateTurret(float DeltaTime);
+	void RotateCannon(float DeltaTime);
 };
