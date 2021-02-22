@@ -75,5 +75,6 @@ private:
 	void SetTargetRollRotation();
 	void Rotate(float DeltaTime);
 	void RotateTurret(float DeltaTime);
+	float TurretTurnDiff();
 	void RotateCannon(float DeltaTime);
 };
