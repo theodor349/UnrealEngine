@@ -1,5 +1,5 @@
-F:\Git\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\Definitions.Prototype1.h
-F:\Program Files\Epic Games\UE_4.26\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\Program Files\Epic Games\UE_4.26\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-F:\Git\UnrealEngine\Project Tank\Prototype1\Source\Prototype1/Pawns/EnemyBase.h
-F:\Git\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\Prototype1\EnemyBase.generated.h
+C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\Definitions.Prototype1.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Source\Prototype1/Pawns/EnemyBase.h
+C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\Prototype1\EnemyBase.generated.h

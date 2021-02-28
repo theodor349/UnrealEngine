@@ -93,7 +93,7 @@ void ATankBase::SetTargetRollRotation()
 
 void ATankBase::Rotate(float DeltaTime)
 {
-	UE_LOG(LogTemp, Warning, TEXT("----"));
+	UE_LOG(LogTemp, Warning, TEXT(" ---- "));
 	RotateTurret(DeltaTime);
 	RotateCannon(DeltaTime);
 }
@@ -106,9 +106,7 @@ void ATankBase::RotateTurret(float DeltaTime)
 
 	float RotationToTurn = FMath::FInterpTo(0.f, RotationDiff, DeltaTime, TurnTime);
 	TurretRotation.Yaw += RotationToTurn;
-	UE_LOG(LogTemp, Warning, TEXT("Before: %s"), *TurretRotation.ToString());
 	TurretRotation.Yaw = ClampTurretRortation(TurretRotation.Yaw);
-	UE_LOG(LogTemp, Warning, TEXT("After: %s"), *TurretRotation.ToString());
 	TurretMesh->SetWorldRotation(TurretRotation);
 }
 
@@ -146,11 +144,34 @@ float ATankBase::ClampTurretRortation(float Rotation)
 void ATankBase::RotateCannon(float DeltaTime)
 {
 	float TRotation = TargetRotation.Roll;
+	UE_LOG(LogTemp, Warning, TEXT("Target: %f"), TRotation);
 	FRotator CurrentRotation = CannonMesh->GetComponentRotation();
 
 	float TurnTime = CannonTurnSpeed / FMath::Abs(TRotation - CurrentRotation.Roll);
-	CurrentRotation.Roll = FMath::FInterpTo(CurrentRotation.Roll, TRotation, DeltaTime, TurnTime);
-	CannonMesh->SetWorldRotation(CurrentRotation);
+	float Rotation = FMath::FInterpTo(CurrentRotation.Roll, TRotation, DeltaTime, TurnTime);
 
+	Rotation = ClampCannonRortation(Rotation);
+	CurrentRotation.Roll = Rotation;
+	CannonMesh->SetWorldRotation(CurrentRotation);
+}
+
+float ATankBase::ClampCannonRortation(float Rotation)
+{
+	Rotation += CannonRotationOffset - 90.f;
+	float BaseRotation = BaseMesh->GetForwardVector().Rotation().Roll;
+
+	UE_LOG(LogTemp, Warning, TEXT("Current: %f"), Rotation);
+	if(CannonMaxRoll < 180 && CannonMinRoll > -180)
+	{
+		float Min = BaseRotation - CannonMaxRoll;
+		float Max = BaseRotation - CannonMinRoll;
+		Rotation = FMath::ClampAngle(Rotation, Min, Max);
+		
+		UE_LOG(LogTemp, Warning, TEXT("Min: %f"), Min);
+		UE_LOG(LogTemp, Warning, TEXT("Max: %f"), Max);
+		UE_LOG(LogTemp, Warning, TEXT("Clamped: %f"), Rotation);
+	}
+
+	return Rotation - CannonRotationOffset + 90.f;
 }
 

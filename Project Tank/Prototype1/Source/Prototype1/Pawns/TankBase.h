@@ -76,4 +76,5 @@ private:
 	float TurretTurnDiff();
 	float ClampTurretRortation(float Rotation);
 	void RotateCannon(float DeltaTime);
+	float ClampCannonRortation(float Rotation);
 };
