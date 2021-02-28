@@ -60,48 +60,6 @@ void ATankBase::PointAt(FVector Position, float DeltaTime)
 {
 	SetTargetRotation();
 	Rotate(DeltaTime);
-	
-	// PointTurretAt(Position, DeltaTime);
-	// PointCannonAt(Position, DeltaTime);
-}
-
-void ATankBase::PointTurretAt(FVector Position, float DeltaTime)
-{
-	FVector CurrentLocation = TurretMesh->GetComponentLocation();
-	FVector TargetLocation(Position.X, Position.Y, CurrentLocation.Z);
-	
-	FRotator CurrentRotation = TurretMesh->GetComponentRotation();
-	float TRotation = FVector(TargetLocation - CurrentLocation).Rotation().Yaw;
-	TRotation = FMath::Fmod(TRotation + 360, 360);
-
-	UE_LOG(LogTemp, Warning, TEXT("----"), TRotation);
-	UE_LOG(LogTemp, Warning, TEXT("Target: %f"), TRotation);
-	UE_LOG(LogTemp, Warning, TEXT("Current: %s"), *CurrentRotation.ToString());
-	
-	TRotation = FMath::Clamp(TRotation + TurretRotationOffset, TurretMinYaw, TurretMaxYaw);
-	
-	float TurnTime = TurretTurnSpeed / FMath::Abs(TRotation - CurrentRotation.Yaw);
-	
-	CurrentRotation.Yaw = FMath::FInterpTo(CurrentRotation.Yaw, TRotation, DeltaTime, TurnTime);
-	TurretMesh->SetWorldRotation(CurrentRotation);
-}
-
-void ATankBase::PointCannonAt(FVector Position, float DeltaTime)
-{
-	FVector CurrentLocation = CannonMesh->GetComponentLocation();
-	FVector TargetLocation(Position.X, Position.Y, CurrentLocation.Z);
-
-	float TargetDistance = FVector::Dist(CurrentLocation, TargetLocation);
-	float TargetHeightDistance = Position.Z - CurrentLocation.Z;
-
-	float TRotation = FVector(TargetHeightDistance, TargetDistance, 0.f).ToOrientationRotator().Yaw;
-	TRotation = FMath::Clamp(TRotation + CannonRotationOffset, -CannonMaxRoll, -CannonMinRoll);
-
-	FRotator CurrentRotation = CannonMesh->GetComponentRotation();
-	float TurnTime = CannonTurnSpeed / FMath::Abs(TRotation - CurrentRotation.Roll);
-	CurrentRotation.Roll = FMath::FInterpTo(CurrentRotation.Roll, TRotation, DeltaTime, TurnTime);
-	
-	CannonMesh->SetWorldRotation(CurrentRotation);
 }
 
 void ATankBase::SetTargetRotation()
@@ -119,7 +77,7 @@ void ATankBase::SetTargetYawRotation()
 	FVector TargetLocation = Target->GetActorLocation();
 
 	float YawRotation = FVector(TargetLocation - CurrentLocation).Rotation().Yaw;
-	TargetRotation.Z = FMath::Fmod((YawRotation + TurretRotationOffset) + 360, 360);
+	TargetRotation.Yaw = FMath::Fmod((YawRotation + TurretRotationOffset) + 360, 360);
 }
 
 void ATankBase::SetTargetRollRotation()
@@ -130,11 +88,12 @@ void ATankBase::SetTargetRollRotation()
 	float TargetDistance = FVector::Dist(CurrentLocation, TargetLocation);
 	float TargetHeightDistance = TargetLocation.Z - CurrentLocation.Z;
 	float RollRotation = FVector(TargetHeightDistance, TargetDistance, 0.f).ToOrientationRotator().Yaw;
-	TargetRotation.X = FMath::Fmod((RollRotation + CannonRotationOffset) + 360, 360) - 180.f;
+	TargetRotation.Roll = FMath::Fmod((RollRotation + CannonRotationOffset) + 360, 360) - 180.f;
 }
 
 void ATankBase::Rotate(float DeltaTime)
 {
+	UE_LOG(LogTemp, Warning, TEXT("----"));
 	RotateTurret(DeltaTime);
 	RotateCannon(DeltaTime);
 }
@@ -147,13 +106,16 @@ void ATankBase::RotateTurret(float DeltaTime)
 
 	float RotationToTurn = FMath::FInterpTo(0.f, RotationDiff, DeltaTime, TurnTime);
 	TurretRotation.Yaw += RotationToTurn;
+	UE_LOG(LogTemp, Warning, TEXT("Before: %s"), *TurretRotation.ToString());
+	TurretRotation.Yaw = ClampTurretRortation(TurretRotation.Yaw);
+	UE_LOG(LogTemp, Warning, TEXT("After: %s"), *TurretRotation.ToString());
 	TurretMesh->SetWorldRotation(TurretRotation);
 }
 
 float ATankBase::TurretTurnDiff()
 {
 	FRotator CurrentRotation = TurretMesh->GetComponentRotation();
-	float T = TargetRotation.Z;
+	float T = TargetRotation.Yaw;
 	float P = CurrentRotation.Yaw;
 	if(P < T)
 	{
@@ -171,9 +133,19 @@ float ATankBase::TurretTurnDiff()
 	}
 }
 
+float ATankBase::ClampTurretRortation(float Rotation)
+{
+	Rotation += TurretRotationOffset;
+	float BaseRotation = BaseMesh->GetForwardVector().Rotation().Yaw;
+	if(TurretMaxYaw < 180 && TurretMinYaw > -180)
+		Rotation = FMath::ClampAngle(Rotation, BaseRotation + TurretRotationOffset + TurretMinYaw, BaseRotation + TurretRotationOffset + TurretMaxYaw);
+	
+	return Rotation - TurretRotationOffset;
+}
+
 void ATankBase::RotateCannon(float DeltaTime)
 {
-	float TRotation = TargetRotation.X;
+	float TRotation = TargetRotation.Roll;
 	FRotator CurrentRotation = CannonMesh->GetComponentRotation();
 
 	float TurnTime = CannonTurnSpeed / FMath::Abs(TRotation - CurrentRotation.Roll);

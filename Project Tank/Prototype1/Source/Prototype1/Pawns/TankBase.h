@@ -64,17 +64,16 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
-	FVector TargetRotation;
+	FRotator TargetRotation;
 	
 	void PointAt(FVector Position, float DeltaTime);
-	void PointTurretAt(FVector Position, float DeltaTime);
-	void PointCannonAt(FVector Position, float DeltaTime);
-
+	
 	void SetTargetRotation();
 	void SetTargetYawRotation();
 	void SetTargetRollRotation();
 	void Rotate(float DeltaTime);
 	void RotateTurret(float DeltaTime);
 	float TurretTurnDiff();
+	float ClampTurretRortation(float Rotation);
 	void RotateCannon(float DeltaTime);
 };
