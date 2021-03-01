@@ -53,6 +53,8 @@ void ATankBase::Tick(float DeltaTime)
 void ATankBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	
 }
 
 
@@ -93,7 +95,7 @@ void ATankBase::SetTargetRollRotation()
 
 void ATankBase::Rotate(float DeltaTime)
 {
-	UE_LOG(LogTemp, Warning, TEXT(" ---- "));
+	// UE_LOG(LogTemp, Warning, TEXT(" ---- "));
 	RotateTurret(DeltaTime);
 	RotateCannon(DeltaTime);
 }
@@ -144,7 +146,7 @@ float ATankBase::ClampTurretRortation(float Rotation)
 void ATankBase::RotateCannon(float DeltaTime)
 {
 	float TRotation = TargetRotation.Roll;
-	UE_LOG(LogTemp, Warning, TEXT("Target: %f"), TRotation);
+	// UE_LOG(LogTemp, Warning, TEXT("Target: %f"), TRotation);
 	FRotator CurrentRotation = CannonMesh->GetComponentRotation();
 
 	float TurnTime = CannonTurnSpeed / FMath::Abs(TRotation - CurrentRotation.Roll);
@@ -160,16 +162,16 @@ float ATankBase::ClampCannonRortation(float Rotation)
 	Rotation += CannonRotationOffset - 90.f;
 	float BaseRotation = BaseMesh->GetForwardVector().Rotation().Roll;
 
-	UE_LOG(LogTemp, Warning, TEXT("Current: %f"), Rotation);
+	// UE_LOG(LogTemp, Warning, TEXT("Current: %f"), Rotation);
 	if(CannonMaxRoll < 180 && CannonMinRoll > -180)
 	{
 		float Min = BaseRotation - CannonMaxRoll;
 		float Max = BaseRotation - CannonMinRoll;
 		Rotation = FMath::ClampAngle(Rotation, Min, Max);
 		
-		UE_LOG(LogTemp, Warning, TEXT("Min: %f"), Min);
-		UE_LOG(LogTemp, Warning, TEXT("Max: %f"), Max);
-		UE_LOG(LogTemp, Warning, TEXT("Clamped: %f"), Rotation);
+		// UE_LOG(LogTemp, Warning, TEXT("Min: %f"), Min);
+		// UE_LOG(LogTemp, Warning, TEXT("Max: %f"), Max);
+		// UE_LOG(LogTemp, Warning, TEXT("Clamped: %f"), Rotation);
 	}
 
 	return Rotation - CannonRotationOffset + 90.f;
