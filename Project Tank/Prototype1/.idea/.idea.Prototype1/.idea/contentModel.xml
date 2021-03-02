@@ -49002,6 +49002,10 @@
       <e p="Prototype1.uproject" t="Include" />
       <e p="Source" t="Include">
         <e p="Prototype1" t="Include">
+          <e p="Characters" t="Include">
+            <e p="TankCharacter.cpp" t="Include" />
+            <e p="TankCharacter.h" t="Include" />
+          </e>
           <e p="Controllers" t="Include">
             <e p="TankAIController.cpp" t="Include" />
             <e p="TankAIController.h" t="Include" />

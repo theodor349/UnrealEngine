@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "GameFramework/Character.h"
 #include "GameFramework/Pawn.h"
 #include "TankBase.generated.h"
 
@@ -10,7 +12,7 @@ class UBoxComponent;
 class AEnemyBase;
 
 UCLASS()
-class PROTOTYPE1_API ATankBase : public APawn
+class PROTOTYPE1_API ATankBase : public ACharacter
 {
 	GENERATED_BODY()
 

@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeTankBase() {}
 // Cross Module References
 	PROTOTYPE1_API UClass* Z_Construct_UClass_ATankBase_NoRegister();
 	PROTOTYPE1_API UClass* Z_Construct_UClass_ATankBase();
-	ENGINE_API UClass* Z_Construct_UClass_APawn();
+	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Prototype1();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -96,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeTankBase() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_ATankBase_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_APawn,
+		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_Prototype1,
 	};
 #if WITH_METADATA
@@ -259,7 +259,7 @@ void EmptyLinkFunctionForGeneratedCodeTankBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankBase, 364432599);
+	IMPLEMENT_CLASS(ATankBase, 2549810445);
 	template<> PROTOTYPE1_API UClass* StaticClass<ATankBase>()
 	{
 		return ATankBase::StaticClass();

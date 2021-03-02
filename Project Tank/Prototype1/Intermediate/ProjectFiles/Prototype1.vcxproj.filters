@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Prototype1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3A0B3DA2-6D27-4CFD-8CE7-8A4379254C50}</UniqueIdentifier>
+      <UniqueIdentifier>{9C3CF67A-8E73-481A-9AF1-17513499B4EB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Prototype1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F4FDA1FB-280F-409D-B313-B41E26E32EC5}</UniqueIdentifier>
+      <UniqueIdentifier>{A000FA5A-FE58-4653-8C80-AF88C06C4C63}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Prototype1">
-      <UniqueIdentifier>{A86BF71E-F4E9-4723-8609-28C371A6FD39}</UniqueIdentifier>
+      <UniqueIdentifier>{C6AED5C2-6642-4211-87ED-675A520A8479}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Prototype1\Prototype1.Build.cs">
       <Filter>Source\Prototype1</Filter>
@@ -35,8 +35,17 @@
     <ClInclude Include="..\..\Source\Prototype1\Prototype1.h">
       <Filter>Source\Prototype1</Filter>
     </ClInclude>
+    <Filter Include="Source\Prototype1\Characters">
+      <UniqueIdentifier>{9CF1261C-8277-4F7D-AF20-673FF6D70B59}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Prototype1\Characters\TankCharacter.cpp">
+      <Filter>Source\Prototype1\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype1\Characters\TankCharacter.h">
+      <Filter>Source\Prototype1\Characters</Filter>
+    </ClInclude>
     <Filter Include="Source\Prototype1\Controllers">
-      <UniqueIdentifier>{8BBAC4EB-FFF7-48DE-8213-DDBAF7A67695}</UniqueIdentifier>
+      <UniqueIdentifier>{B71ACC50-632D-4046-9C77-79CEC91A7027}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Prototype1\Controllers\TankAIController.cpp">
       <Filter>Source\Prototype1\Controllers</Filter>
@@ -45,7 +54,7 @@
       <Filter>Source\Prototype1\Controllers</Filter>
     </ClInclude>
     <Filter Include="Source\Prototype1\Pawns">
-      <UniqueIdentifier>{D52A2A7B-4565-4A56-BB3A-BD82B48DDFEA}</UniqueIdentifier>
+      <UniqueIdentifier>{8436E8E2-4585-43ED-B611-A3C7408D1B22}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Prototype1\Pawns\EnemyBase.cpp">
       <Filter>Source\Prototype1\Pawns</Filter>

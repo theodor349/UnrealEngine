@@ -53,8 +53,6 @@ void ATankBase::Tick(float DeltaTime)
 void ATankBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	
 }
 
 
@@ -95,7 +93,7 @@ void ATankBase::SetTargetRollRotation()
 
 void ATankBase::Rotate(float DeltaTime)
 {
-	// UE_LOG(LogTemp, Warning, TEXT(" ---- "));
+	UE_LOG(LogTemp, Warning, TEXT(" ---- "));
 	RotateTurret(DeltaTime);
 	RotateCannon(DeltaTime);
 }

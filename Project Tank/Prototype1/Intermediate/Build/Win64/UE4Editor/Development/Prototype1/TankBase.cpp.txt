@@ -1,5 +1,11 @@
 C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\Definitions.Prototype1.h
 C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Source\Prototype1\Pawns\TankBase.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\Prototype1\TankBase.generated.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\INCLUDE\string
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\INCLUDE\xstring
