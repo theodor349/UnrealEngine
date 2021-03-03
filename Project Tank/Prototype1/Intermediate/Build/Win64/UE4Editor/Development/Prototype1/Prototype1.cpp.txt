@@ -1,2 +1,0 @@
-C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\Prototype1\Definitions.Prototype1.h
-C:\Users\theod\Documents\GitHub\UnrealEngine\Project Tank\Prototype1\Source\Prototype1\Prototype1.h
