@@ -5,16 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f79d1e2-4a5a-4797-8186-f8a15d2b18b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Prototype1.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Prototype1.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Editor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Logs/Prototype1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Tank/Prototype1/Saved/Logs/Prototype1.log" afterDir="false" />
-    </list>
+    <list default="true" id="0f79d1e2-4a5a-4797-8186-f8a15d2b18b8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,6 +284,7 @@
       <workItem from="1612882515910" duration="10648000" />
       <workItem from="1612962022546" duration="5495000" />
       <workItem from="1613656095675" duration="4025000" />
+      <workItem from="1614778751215" duration="1000" />
     </task>
     <servers />
   </component>
